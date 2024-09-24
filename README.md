@@ -1,3 +1,9 @@
+## 环境配置
+
+1. My Python Version = 3.11.5 (仅供参考)
+2. pip install -r ./requirements.txt
+3. 配置 selenium 环境 (使用了 google chrome)
+
 ## 使用指南
 
 1. 在 user_info.secret 中设置用户名和密码

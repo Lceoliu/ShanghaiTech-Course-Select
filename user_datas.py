@@ -1,5 +1,4 @@
 import json
-from fake_useragent import UserAgent
 from json import JSONDecodeError
 
 # TODO: 请在此处填写你的学期id

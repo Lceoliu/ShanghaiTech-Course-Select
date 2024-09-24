@@ -1,3 +1,5 @@
 *.secret
 *.test
+test.py
 cookies.json
+*.js
