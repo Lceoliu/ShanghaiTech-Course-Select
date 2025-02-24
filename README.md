@@ -1,3 +1,5 @@
+# 一个自动抢课脚本for ShanghaiTech Undergraduates
+
 ## 环境配置
 
 1. My Python Version = 3.11.5 (仅供参考)
