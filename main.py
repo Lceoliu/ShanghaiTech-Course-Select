@@ -1,71 +1,69 @@
-import random, os
-from time import sleep
-from post_method import EleceCourse
-from bs4 import BeautifulSoup as bs
+# -*- coding: utf-8 -*-
+import argparse
+from FrontUI import FrontWindow
+from Backends import Backends
 
-ElectedLessons = [49620]
-import time, datetime
 
-# 设置选课时间
-# 格式为"年-月-日 时:分" e.g. "2021-09-06 20:00"
-set_time = [
-    "2024-07-25 20:00",
-    "2024-07-26 00:00",
-    "2024-07-26 08:00",
-    "2024-07-26 12:00",
-    "2024-07-26 16:00",
-    "2024-07-26 20:00",
-    "2024-07-27 00:00",
-    "2024-07-27 08:00",
-    "2024-07-27 12:00",
-]
-os.system("cls")
-try:
-    res = EleceCourse(ElectedLessons[0])
-except Exception as e:
-    print(e)
-    print("请检查网络连接或者是否已经登录")
-    exit()
-os.system("cls")
-while True:
-    now_time = datetime.datetime.now()
-    s_time = datetime.datetime.strptime(set_time[0], "%Y-%m-%d %H:%M")
-    rest_time = (s_time - now_time).total_seconds()
-    print(f"还有{rest_time}s", end='   ')
-    if rest_time < -100:
-        set_time.pop(0)
-        if len(set_time) == 0:
-            break
-    elif -100 <= rest_time <= 25:
-        for lesson in ElectedLessons:
-            res = EleceCourse(lesson)
-            bs1 = bs(res.text, 'lxml')
-            # print(res.text)
-            try:
-                success_text = bs1.select('td>div')
-                await_text = bs1.select('div span')
-            except:
-                print(bs1.text)
-            if len(await_text) > 0:
-                print(await_text[1].get_text())
-            elif len(success_text) > 0:
-                print(
-                    f'\n{lesson}已选择!' + success_text[0].get_text().replace(' ', '')
-                )
-                if not "失败" in success_text[0].get_text():
-                    ElectedLessons.remove(lesson)
-            sleep(0.26 + random.randint(-5, 5) / 100.0)
-    elif 120 > rest_time > 25:
-        print("\b\b\b.", end='')
-        sleep(1)
-    elif rest_time >= 120:
-        print("\b\b\b.", end='')
-        sleep(1)
-        print(".", end='')
-        sleep(1)
-        print(".", end='')
-        sleep(1)
-    if len(ElectedLessons) == 0:
-        break
-    print("\r", end='')
-print("\n选课结束")
+if __name__ == "__main__":
+    arg = argparse.ArgumentParser(description="抢课")
+    arg.add_argument(
+        "--config",
+        type=str,
+        default="./user_info.secret",
+        help="配置文件路径",
+    )
+    arg.add_argument(
+        "--id",
+        type=str,
+        nargs="+",
+        default="",
+        help="要抢的课程ID",
+    )
+    arg.add_argument(
+        "--time",
+        type=str,
+        nargs="+",
+        metavar="YYYY-MM-DD HH:MM",
+        default="",
+        help="抢课时间",
+    )
+    args = arg.parse_args()
+
+    backend = Backends()
+
+    if len(args.id) == 0 or len(args.time) == 0:
+        # not use cli
+        front = FrontWindow(backend)
+    else:
+        # use cli
+        backend.load_user_info_from_file(args.config)
+        backend.login()
+        backend.get_student_info()
+        backend._get_courses_info("./courses.json")
+        import signal, time
+
+        def signal_handler(signum, frame):
+            print("Signal handler called with signal:", signum)
+            backend.stop_auto_select()
+            backend.close()
+            exit(0)
+
+        signal.signal(signal.SIGINT, signal_handler)
+
+        for id in args.id:
+            backend.schedule.add_schedule(id)
+        for time_str in args.time:
+            import datetime
+
+            time_obj = datetime.datetime.strptime(time_str, "%Y-%m-%d %H:%M")
+            backend.schedule.add_schedule_time(time_obj)
+        backend.auto_select()
+        try:
+            while True:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            backend.stop_auto_select()
+            backend.close()
+
+        print("程序已关闭")
+        backend.close()

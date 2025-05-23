@@ -1,3 +1,10 @@
-beautifulsoup4==4.12.3
+beautifulsoup4==4.13.4
+flet==0.28.3
+# Pillow==9.4.0
+# Pillow==9.5.0
+# Pillow==11.2.1
+pwntools==4.14.0
+pycryptodome==3.21.0
 Requests==2.32.3
-selenium==4.25.0
+# selenium==4.32.0
+ten==0.1.6

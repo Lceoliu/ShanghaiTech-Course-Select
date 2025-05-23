@@ -3,3 +3,11 @@
 test.py
 cookies.json
 *.js
+*.json
+
+tests/
+logs/
+
+__pycache__/
+.vscode/
+.idea/
