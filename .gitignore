@@ -1,13 +1,13 @@
+# Secrets and local caches
 *.secret
 *.test
-test.py
 cookies.json
-*.js
-*.json
 
-tests/
+# Runtime artefacts
 logs/
-
 __pycache__/
 .vscode/
 .idea/
+
+# Test tooling
+.pytest_cache/
