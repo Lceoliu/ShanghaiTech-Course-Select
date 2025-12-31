@@ -3,6 +3,7 @@
 # @Author  : Chang
 
 
+from functools import lru_cache
 from .encryption import LoginEncryptModel
 from .schedule import ScheduleAutoSelector
 from .my_utils import *
@@ -66,7 +67,7 @@ class Backends:
 
         self.give_up_seconds: int = 30
         self.schedule = ScheduleAutoSelector(delay_seconds=self.give_up_seconds)
-        self.auto_select_cd: float = 0.25
+        self.auto_select_cd: float = 0.35  # 抢课间隔时间，单位秒
 
         # status & logger module
         self.status = []
@@ -295,6 +296,7 @@ class Backends:
             self.status.append("No student info available.")
             return None
 
+    @lru_cache(maxsize=1)
     def _get_semester_id(self):
         entering_page_url = (
             "https://eams.shanghaitech.edu.cn/eams/stdElectCourse.action"
@@ -492,13 +494,11 @@ class Backends:
             self.logger.warning("Not logged in. Cannot start auto-selection.")
             self.status.append("Not logged in. Cannot start auto-selection.")
             return
-        # if not self.validate_session():
-        #     self.logger.warning("Session expired. re-logining...")
-        #     self.status.append("Session expired. re-logining...")
-        #     self.login(self.username, self.password)
         self.stop_event.clear()
         if not self.semester_id:
             self.semester_id = self._get_semester_id()
+            self.logger.info(f"Semester ID: {self.semester_id}")
+            self.status.append(f"Semester ID: {self.semester_id}")
         thread_local_data = {
             "cookies": self.cookies.copy(),
         }
@@ -584,6 +584,7 @@ class Backends:
             self.status.append("No semester ID available. Cannot select course.")
             return
         data = {'optype': 'true', 'operator0': (course_id) + ':true:0'}
+        # 如果要退课，则是 {'optype': 'false', 'operator0': (course_id) + ':false'}
 
         self.logger.info(f"Selecting course with ID: {course_id}")
         self.status.append(f"Selecting course with ID: {course_id}")
@@ -606,7 +607,7 @@ class Backends:
             if len(frequently_requested_text) > 0 or "过快点击" in response.text:
                 self.logger.info(frequently_requested_text[1].get_text())
                 self.status.append(frequently_requested_text[1].get_text())
-                self.stop_event.wait(self.auto_select_cd + random.uniform(-0.1, 0.1))
+                self.stop_event.wait(self.auto_select_cd + random.uniform(0, 0.25))
             elif len(success_text) > 0:
                 self.logger.info(
                     f'\n{course_id} 已选择!'
