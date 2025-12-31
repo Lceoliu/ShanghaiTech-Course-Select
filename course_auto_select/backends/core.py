@@ -472,11 +472,13 @@ class Backends:
     def validate_session(self) -> bool:
         student_info_url = "https://eams.shanghaitech.edu.cn/eams/stdDetail.action"
         response = self.session.get(student_info_url, cookies=self.cookies)
-        if len(response.history) > 0:
-            if response.history[0].status_code == 302:
-                print("Session expired. Please log in again.")
-                self.status.append("Session expired. Please log in again.")
-                return False
+        if "姓名" in response.text and "性别" in response.text:
+            return True
+        if response.status_code != 200 or "登录" in response.text:
+            print("Session expired. Please log in again.")
+            self.status.append("Session expired. Please log in again.")
+            self.is_logged_in = False
+            return False
         return True
 
     def close(self):
@@ -526,13 +528,13 @@ class Backends:
                             if not self.validate_session() or not self.is_logged_in:
                                 self.logger.warning("Session expired. re-logining...")
                                 self.status.append("Session expired. re-logining...")
-                                self.login(self.username, self.password)
+                                self.login()
                         threading.Event().wait(10)
                     elif 15 < remaining_seconds <= 90:
                         if not self.validate_session() or not self.is_logged_in:
                             self.logger.warning("Session expired. re-logining...")
                             self.status.append("Session expired. re-logining...")
-                            self.login(self.username, self.password)
+                            self.login()
                         if int(remaining_seconds) % 5 == 0:
                             self.logger.info(
                                 f"Remaining time: {int(remaining_seconds)} seconds"
@@ -572,8 +574,6 @@ class Backends:
         self.stop_event.set()
 
     def _select_course(self, course_id: str):
-        # Implement the logic to select a course using the course_id
-        # For now, we will just print the course ID
         post_url = (
             f"https://eams.shanghaitech.edu.cn/eams/stdElectCourse!batchOperator.action?profileId={self.semester_id}"
             if self.semester_id
@@ -603,10 +603,10 @@ class Backends:
                 frequently_requested_text = soup.select('div span')
             except:
                 self.logger.error(soup.text)
-            if len(frequently_requested_text) > 0:
+            if len(frequently_requested_text) > 0 or "过快点击" in response.text:
                 self.logger.info(frequently_requested_text[1].get_text())
                 self.status.append(frequently_requested_text[1].get_text())
-                self.stop_event.wait(self.auto_select_cd)
+                self.stop_event.wait(self.auto_select_cd + random.uniform(-0.1, 0.1))
             elif len(success_text) > 0:
                 self.logger.info(
                     f'\n{course_id} 已选择!'
