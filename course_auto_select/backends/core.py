@@ -14,7 +14,6 @@ import threading
 import logging
 import json
 import os
-import bs4
 
 from typing import Optional, Union, List, Dict
 from datetime import datetime, timedelta
@@ -61,6 +60,13 @@ class Backends:
         self.login_attempts = 0
         self.login_max_retries = 3
         self.need_captcha = False
+        self.relogin_cooldown_seconds: float = 3.0
+        self._last_relogin_ts: float = 0.0
+        self._last_session_check_ts: float = 0.0
+        self._relogin_lock = threading.Lock()
+        self.last_login_response_status: Optional[int] = None
+        self.last_login_response_url: str = ""
+        self.last_login_response_text: str = ""
 
         self.courses_info: List[Dict] = None
         self.student_info = None
@@ -141,6 +147,11 @@ class Backends:
             self.username = username
             self.password = password
 
+        # 每次登录都重置状态，避免旧重试计数导致后续 relogin 直接失败
+        self.login_attempts = 0
+        self.need_captcha = False
+        self.is_logged_in = False
+
         self.data = {
             'username': username,
             'password': '',
@@ -151,13 +162,54 @@ class Backends:
             'lt': '',
             'execution': '',
         }
-        first_response = self.session.get(self.auth_url, cookies=self.cookies)
-        self._parse_login_page(first_response.text)
-
         while not self.is_logged_in and self.login_attempts < self.login_max_retries:
-            captcha_response = self.session.get(
-                f"https://ids.shanghaitech.edu.cn/authserver/checkNeedCaptcha.htl?username={username}&_={int(time.time()*1000)}"
-            )
+            try:
+                first_response = self.session.get(
+                    self.auth_url, cookies=self.cookies, timeout=10
+                )
+            except requests.RequestException as e:
+                self.login_attempts += 1
+                self.logger.error(f"Error requesting login page: {e}")
+                self.status.append(f"Error requesting login page: {e}")
+                self.stop_event.wait(min(1.5 * self.login_attempts, 5))
+                continue
+
+            if not self._parse_login_page(first_response.text):
+                # 已经存在 SSO 登录态时，auth_url 可能直接跳转业务页而非返回登录表单
+                if "authserver/login" not in (first_response.url or ""):
+                    if self.validate_session():
+                        self.logger.info(
+                            "Existing authenticated session detected; login form not required."
+                        )
+                        self.status.append(
+                            "Existing authenticated session detected; login form not required."
+                        )
+                        self.is_logged_in = True
+                        break
+
+                    # 登录态不一致：清理 SSO 相关 cookie，强制下次尝试拿到登录表单
+                    self._clear_sso_cookies()
+                self.login_attempts += 1
+                self.logger.error(
+                    "Failed to parse login page tokens (pwdEncryptSalt/execution)."
+                )
+                self.status.append(
+                    "Failed to parse login page tokens (pwdEncryptSalt/execution)."
+                )
+                self.stop_event.wait(min(1.5 * self.login_attempts, 5))
+                continue
+
+            try:
+                captcha_response = self.session.get(
+                    f"https://ids.shanghaitech.edu.cn/authserver/checkNeedCaptcha.htl?username={username}&_={int(time.time()*1000)}",
+                    timeout=10,
+                )
+            except requests.RequestException as e:
+                self.login_attempts += 1
+                self.logger.error(f"Error checking captcha: {e}")
+                self.status.append(f"Error checking captcha: {e}")
+                self.stop_event.wait(min(1.5 * self.login_attempts, 5))
+                continue
 
             try:
                 self.need_captcha = captcha_response.json().get('isNeed')
@@ -179,22 +231,45 @@ class Backends:
                 self._submit_login()
 
             self.login_attempts += 1
+            if not self.is_logged_in:
+                self.stop_event.wait(min(1.5 * self.login_attempts, 5))
         if not self.is_logged_in:
             self.logger.warning("Login attempts exceeded maximum retries.")
             self.status.append("Login attempts exceeded maximum retries.")
+        return self.is_logged_in
 
-    def _parse_login_page(self, html: str):
+    def _clear_sso_cookies(self) -> None:
+        for cookie in list(self.session.cookies):
+            domain = (cookie.domain or "").lower()
+            if "ids.shanghaitech.edu.cn" in domain or "egate-new.shanghaitech.edu.cn" in domain:
+                self.session.cookies.clear(
+                    domain=cookie.domain, path=cookie.path, name=cookie.name
+                )
+
+    def _parse_login_page(self, html: str) -> bool:
         import bs4
 
         res = bs4.BeautifulSoup(html, 'lxml')
-        salt = res.select("#pwdEncryptSalt")[0]['value']
-        execution = res.select("#execution")[0]['value']
+        salt_element = res.select_one("#pwdEncryptSalt")
+        execution_element = res.select_one("#execution")
+        if not salt_element or not execution_element:
+            return False
+        salt = salt_element.get('value', '')
+        execution = execution_element.get('value', '')
+        if not salt or not execution:
+            return False
 
         self.encrypt_model.set_salt(salt)
         if self.data:
             self.data['execution'] = execution
         else:
             raise ValueError("Data is not set.")
+        return True
+
+    def _append_wrong_password_status_if_present(self, text: str) -> None:
+        if "您提供的用户名或者密码有误" in (text or ""):
+            self.logger.error("您提供的用户名或者密码有误")
+            self.status.append("您提供的用户名或者密码有误")
 
     def _get_captcha_code(self):
         # This method should implement the logic to get the captcha code from the user
@@ -208,22 +283,39 @@ class Backends:
         encrypted_password = self.encrypt_model.encrypt_password(self.password)
         self.data['password'] = encrypted_password
 
-        response = self.session.post(
-            self.auth_url,
-            data=self.data,
-        )
+        try:
+            response = self.session.post(
+                self.auth_url,
+                data=self.data,
+                timeout=10,
+            )
+        except requests.RequestException as e:
+            self.logger.error(f"Login request failed: {e}")
+            self.status.append(f"Login request failed: {e}")
+            self.is_logged_in = False
+            return False
+        self.last_login_response_status = response.status_code
+        self.last_login_response_url = response.url
+        self.last_login_response_text = response.text or ""
         self.session.cookies.update(response.cookies)
-        if response.status_code == 200:
+        if response.status_code != 200:
+            self.logger.error(f"Login failed! status_code={response.status_code}")
+            self.status.append(f"Login failed! status_code={response.status_code}")
+            self._append_wrong_password_status_if_present(self.last_login_response_text)
+            self.is_logged_in = False
+            return False
+
+        # 真实结果确认：用受保护资源验证会话是否有效，避免依赖不稳定页面文案特征
+        self.is_logged_in = self.validate_session()
+        if self.is_logged_in:
             self.logger.info("Login successful!")
             self.status.append("Login successful!")
-            self.is_logged_in = True
-        else:
-            self.logger.error("Login failed!")
-            self.status.append("Login failed!")
-            if "您提供的用户名或者密码有误" in response.text:
-                self.logger.error("您提供的用户名或者密码有误")
-                self.status.append("您提供的用户名或者密码有误")
-            self.is_logged_in = False
+            return True
+
+        self.logger.error("Login failed! session is still invalid after submit.")
+        self.status.append("Login failed! session is still invalid after submit.")
+        self._append_wrong_password_status_if_present(self.last_login_response_text)
+        return False
 
     def get_eams_home(self):
         home_url = (
@@ -473,7 +565,13 @@ class Backends:
 
     def validate_session(self) -> bool:
         student_info_url = "https://eams.shanghaitech.edu.cn/eams/stdDetail.action"
-        response = self.session.get(student_info_url, cookies=self.cookies)
+        try:
+            response = self.session.get(student_info_url, cookies=self.cookies, timeout=10)
+        except requests.RequestException as e:
+            self.logger.warning(f"Session check failed due to network error: {e}")
+            self.status.append(f"Session check failed due to network error: {e}")
+            self.is_logged_in = False
+            return False
         if "姓名" in response.text and "性别" in response.text:
             return True
         if response.status_code != 200 or "登录" in response.text:
@@ -482,6 +580,32 @@ class Backends:
             self.is_logged_in = False
             return False
         return True
+
+    def _maybe_relogin(self, force: bool = False) -> bool:
+        if self.username is None or self.password is None:
+            self.logger.warning("No cached credentials. Cannot relogin automatically.")
+            self.status.append("No cached credentials. Cannot relogin automatically.")
+            return False
+
+        now = time.monotonic()
+        if not force and now - self._last_relogin_ts < self.relogin_cooldown_seconds:
+            return False
+
+        if not self._relogin_lock.acquire(blocking=False):
+            return False
+        try:
+            self._last_relogin_ts = time.monotonic()
+            self.logger.warning("Session expired. re-logining...")
+            self.status.append("Session expired. re-logining...")
+            try:
+                return bool(self.login())
+            except Exception as e:
+                self.logger.error(f"Relogin failed with exception: {e}")
+                self.status.append(f"Relogin failed with exception: {e}")
+                self.is_logged_in = False
+                return False
+        finally:
+            self._relogin_lock.release()
 
     def close(self):
         self.logger.info("Closing session.")
@@ -518,23 +642,31 @@ class Backends:
                 remaining_seconds = self.schedule.get_remaining_seconds()
                 if remaining_seconds is not None:
                     if remaining_seconds > 90:
-                        if remaining_seconds % 3600 == 0:
+                        now = time.monotonic()
+                        # 长等待阶段按固定间隔检查会话，避免 session 过期后直到临近触发才发现
+                        if now - self._last_session_check_ts >= 30:
+                            self._last_session_check_ts = now
+                            if not self.validate_session() or not self.is_logged_in:
+                                self._maybe_relogin()
+                        if int(remaining_seconds) % 3600 == 0:
                             self.logger.info(
                                 f"Remaining time: {int(remaining_seconds)} seconds"
                             )
                             self.status.append(
                                 f"Remaining time: {int(remaining_seconds)} seconds"
                             )
-                            if not self.validate_session() or not self.is_logged_in:
-                                self.logger.warning("Session expired. re-logining...")
-                                self.status.append("Session expired. re-logining...")
-                                self.login()
-                        threading.Event().wait(10)
+                        if self.stop_event.wait(10):
+                            break
                     elif 15 < remaining_seconds <= 90:
+                        now = time.monotonic()
+                        if now - self._last_session_check_ts >= 5:
+                            self._last_session_check_ts = now
+                            if not self.validate_session() or not self.is_logged_in:
+                                self._maybe_relogin(force=True)
                         if not self.validate_session() or not self.is_logged_in:
-                            self.logger.warning("Session expired. re-logining...")
-                            self.status.append("Session expired. re-logining...")
-                            self.login()
+                            # 登录失败时短暂退避，避免连续刷登录导致状态被互相覆盖
+                            self.stop_event.wait(2.0)
+                            continue
                         if int(remaining_seconds) % 5 == 0:
                             self.logger.info(
                                 f"Remaining time: {int(remaining_seconds)} seconds"
@@ -542,8 +674,13 @@ class Backends:
                             self.status.append(
                                 f"Remaining time: {int(remaining_seconds)} seconds"
                             )
-                            threading.Event().wait(1)
+                            if self.stop_event.wait(1):
+                                break
                     elif -self.give_up_seconds <= remaining_seconds <= 15:
+                        if not self.validate_session() or not self.is_logged_in:
+                            if not self._maybe_relogin(force=True):
+                                self.stop_event.wait(1.5)
+                                continue
                         for course_id in self.schedule.schedule:
                             self._select_course(course_id)
                             if self.stop_event.is_set():

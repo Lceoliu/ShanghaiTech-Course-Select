@@ -37,7 +37,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "20",
+    "bstdCount": "19",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -92,7 +92,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "30",
+    "bstdCount": "22",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -147,7 +147,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "25",
+    "bstdCount": "28",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -202,7 +202,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "6",
+    "bstdCount": "8",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -268,7 +268,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "55",
-    "bstdCount": "55",
+    "bstdCount": "47",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -323,7 +323,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "8",
+    "bstdCount": "10",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -335,8 +335,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1300,
         "endTime": 1440,
-        "roomIds": "257",
-        "rooms": "创管学院202"
+        "roomIds": "239",
+        "rooms": "教学中心407"
       }
     ]
   },
@@ -378,7 +378,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "7",
+    "bstdCount": "11",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -390,8 +390,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1300,
         "endTime": 1440,
-        "roomIds": "257",
-        "rooms": "创管学院202"
+        "roomIds": "239",
+        "rooms": "教学中心407"
       }
     ]
   },
@@ -543,7 +543,7 @@
     "similarcourses": "(SP1102)信息检索",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "7",
+    "bstdCount": "8",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -631,7 +631,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "17",
+    "bstdCount": "21",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -686,7 +686,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "8",
+    "bstdCount": "9",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -741,7 +741,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "14",
+    "bstdCount": "12",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -796,7 +796,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "30",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -906,9 +906,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "19",
-    "bstdCount": "18",
+    "bstdCount": "16",
     "ystdLimit": "4",
-    "ystdCount": "1",
+    "ystdCount": "2",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -929,61 +929,6 @@
         "weekStateDigest": "1-11",
         "startTime": 1800,
         "endTime": 1940,
-        "roomIds": "914",
-        "rooms": "创艺学院E302"
-      }
-    ]
-  },
-  {
-    "id": 63631,
-    "no": "ARTS1427.01",
-    "name": "设计项目实践",
-    "code": "ARTS1427",
-    "credits": 2,
-    "courseId": 5926,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 8,
-    "courseTypeId": 321,
-    "courseTypeName": "创意与艺术课程群",
-    "courseTypeCode": "065",
-    "teachDepartId": 82,
-    "teachDepartName": "创意与艺术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "杨华",
-    "teacherIds": "3848577",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "101363",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校（非工业设计）",
-    "preRequirement": "建议先修课程：《交互设计概论》、《交互产品设计》或《数码产品设计》、《设计思维：产品与交互设计的创新方案》、《数据可视化》、《三维视觉概念设计》、《环境仿真与交互》（任意一门）",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "16",
-    "bstdCount": "2",
-    "ystdLimit": "4",
-    "ystdCount": "2",
-    "arrangeInfo": [
-      {
-        "weekDay": 2,
-        "weekState": "01111111100000000000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 13,
-        "weekStateDigest": "1-8",
-        "startTime": 1800,
-        "endTime": 2130,
         "roomIds": "914",
         "rooms": "创艺学院E302"
       }
@@ -1027,9 +972,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "26",
-    "bstdCount": "26",
+    "bstdCount": "25",
     "ystdLimit": "4",
-    "ystdCount": "2",
+    "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 3,
@@ -1093,7 +1038,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "11",
+    "bstdCount": "8",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -1134,13 +1079,13 @@
     "weekHour": 0,
     "withdrawable": true,
     "textbooks": "",
-    "teachers": "郭刻羽",
-    "teacherIds": "11206633",
+    "teachers": "张滦博,许哲欣",
+    "teacherIds": "8888247,11206629",
     "campusCode": "",
     "campusName": "",
     "courseEducationId": "1",
     "courseEducationName": "本科",
-    "strMainTeacherId": "101991",
+    "strMainTeacherId": "101820",
     "strSemester": "202520262",
     "remark": "",
     "teachClassName": "全校",
@@ -1148,7 +1093,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "30",
+    "bstdCount": "29",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -1156,67 +1101,23 @@
         "weekDay": 4,
         "weekState": "00000000011111111000000000000000000000000000000000000",
         "startUnit": 5,
-        "endUnit": 8,
+        "endUnit": 6,
         "weekStateDigest": "9-16",
         "startTime": 1300,
+        "endTime": 1440,
+        "roomIds": "1234",
+        "rooms": "创艺学院E407"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000000011111111000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "9-16",
+        "startTime": 1500,
         "endTime": 1640,
         "roomIds": "1234",
         "rooms": "创艺学院E407"
-      }
-    ]
-  },
-  {
-    "id": 63988,
-    "no": "ARTS1443.01",
-    "name": "健康产品设计",
-    "code": "ARTS1443",
-    "credits": 3,
-    "courseId": 7965,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 321,
-    "courseTypeName": "创意与艺术课程群",
-    "courseTypeCode": "065",
-    "teachDepartId": 82,
-    "teachDepartName": "创意与艺术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "Shimon Shmueli",
-    "teacherIds": "6989353",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "101613",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "Prerequisite suggestion：Upper level",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "22",
-    "bstdCount": "1",
-    "ystdLimit": "8",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 4,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 9,
-        "weekStateDigest": "1-16",
-        "startTime": 1500,
-        "endTime": 1735,
-        "roomIds": "616",
-        "rooms": "创艺学院E502"
       }
     ]
   },
@@ -1258,7 +1159,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "26",
-    "bstdCount": "26",
+    "bstdCount": "29",
     "ystdLimit": "4",
     "ystdCount": "1",
     "arrangeInfo": [
@@ -1313,7 +1214,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "26",
-    "bstdCount": "26",
+    "bstdCount": "28",
     "ystdLimit": "4",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -1456,9 +1357,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "27",
-    "bstdCount": "27",
+    "bstdCount": "30",
     "ystdLimit": "3",
-    "ystdCount": "1",
+    "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -1470,116 +1371,6 @@
         "endTime": 1940,
         "roomIds": "1094",
         "rooms": "创艺学院E307"
-      }
-    ]
-  },
-  {
-    "id": 64073,
-    "no": "ARTS1519.01",
-    "name": "造物悟道——创意趣味设计",
-    "code": "ARTS1519",
-    "credits": 3,
-    "courseId": 8451,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 12,
-    "courseTypeId": 321,
-    "courseTypeName": "创意与艺术课程群",
-    "courseTypeCode": "065",
-    "teachDepartId": 82,
-    "teachDepartName": "创意与艺术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "顾明德,王文超",
-    "teacherIds": "5403033,10169350",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "101456",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "(ARTS1417)产品设计与结构",
-    "byThrough": "true",
-    "bstdLimit": "25",
-    "bstdCount": "3",
-    "ystdLimit": "5",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 8,
-        "weekStateDigest": "1-12",
-        "startTime": 1300,
-        "endTime": 1640,
-        "roomIds": "101",
-        "rooms": "学生科创中心104"
-      }
-    ]
-  },
-  {
-    "id": 64635,
-    "no": "ARTS1602.01",
-    "name": "黄梅戏欣赏与体验",
-    "code": "ARTS1602",
-    "credits": 2,
-    "courseId": 2963,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 11,
-    "courseTypeId": 84,
-    "courseTypeName": "任意选修课",
-    "courseTypeCode": "044",
-    "teachDepartId": 242,
-    "teachDepartName": "科道书院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 2,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "徐菲",
-    "teacherIds": "1161",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "100144",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "该课程若超过人数上限，第一轮选课结束后将安排面试，请注意查看邮件通知。",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "30",
-    "bstdCount": "0",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 4,
-        "weekState": "01111111111100000000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 12,
-        "weekStateDigest": "1-11",
-        "startTime": 1800,
-        "endTime": 2035,
-        "roomIds": "297",
-        "rooms": "体育馆B107（健美操房）"
       }
     ]
   },
@@ -1621,7 +1412,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "17",
+    "bstdCount": "19",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -1676,9 +1467,9 @@
     "similarcourses": "(BHSC1007)消费者心理学",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "12",
+    "bstdCount": "9",
     "ystdLimit": "20",
-    "ystdCount": "6",
+    "ystdCount": "5",
     "arrangeInfo": [
       {
         "weekDay": 3,
@@ -1688,8 +1479,8 @@
         "weekStateDigest": "1-8",
         "startTime": 1300,
         "endTime": 1640,
-        "roomIds": "182",
-        "rooms": "创管学院215"
+        "roomIds": "181",
+        "rooms": "创管学院219"
       }
     ]
   },
@@ -1731,7 +1522,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "40",
+    "bstdCount": "38",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -1797,7 +1588,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "28",
-    "bstdCount": "8",
+    "bstdCount": "11",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -1863,7 +1654,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "28",
+    "bstdCount": "30",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -1995,7 +1786,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "15",
-    "bstdCount": "5",
+    "bstdCount": "8",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -2127,7 +1918,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "8",
+    "bstdCount": "11",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -2215,7 +2006,7 @@
     "similarcourses": "(BIO1002)现代生命科学导论B,(BIO1012)生命科学导论A,(BIO1013)生命科学导论B,(BIO1015)现代生命科学导论D",
     "byThrough": "false",
     "bstdLimit": "80",
-    "bstdCount": "31",
+    "bstdCount": "32",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -2231,17 +2022,6 @@
         "rooms": "教学中心406,教学中心405"
       },
       {
-        "weekDay": 1,
-        "weekState": "01000000001111111000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1,10-16",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "227",
-        "rooms": "教学中心203"
-      },
-      {
         "weekDay": 3,
         "weekState": "00000000001010101000000000000000000000000000000000000",
         "startUnit": 3,
@@ -2254,14 +2034,25 @@
       },
       {
         "weekDay": 1,
+        "weekState": "01000000001111111000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1,10-16",
+        "startTime": 1015,
+        "endTime": 1155,
+        "roomIds": "235",
+        "rooms": "教学中心403"
+      },
+      {
+        "weekDay": 1,
         "weekState": "00111111110000000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
         "weekStateDigest": "2-9",
         "startTime": 1015,
         "endTime": 1155,
-        "roomIds": "227",
-        "rooms": "教学中心203"
+        "roomIds": "235",
+        "rooms": "教学中心403"
       }
     ]
   },
@@ -2309,36 +2100,25 @@
     "arrangeInfo": [
       {
         "weekDay": 3,
-        "weekState": "00101010100000000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "2-8双",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "236,235",
-        "rooms": "教学中心404,教学中心403"
-      },
-      {
-        "weekDay": 3,
         "weekState": "00000000001010101000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
         "weekStateDigest": "10-16双",
         "startTime": 1015,
         "endTime": 1155,
-        "roomIds": "236,235",
-        "rooms": "教学中心404,教学中心403"
+        "roomIds": "236,235,234,233",
+        "rooms": "教学中心404,教学中心403,教学中心402,教学中心401"
       },
       {
-        "weekDay": 1,
-        "weekState": "01111111100000000000000000000000000000000000000000000",
+        "weekDay": 3,
+        "weekState": "00101010100000000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "1-8",
+        "weekStateDigest": "2-8双",
         "startTime": 1015,
         "endTime": 1155,
-        "roomIds": "231",
-        "rooms": "教学中心303"
+        "roomIds": "236,235,234,233",
+        "rooms": "教学中心404,教学中心403,教学中心402,教学中心401"
       },
       {
         "weekDay": 1,
@@ -2346,6 +2126,17 @@
         "startUnit": 3,
         "endUnit": 4,
         "weekStateDigest": "9-16",
+        "startTime": 1015,
+        "endTime": 1155,
+        "roomIds": "231",
+        "rooms": "教学中心303"
+      },
+      {
+        "weekDay": 1,
+        "weekState": "01111111100000000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-8",
         "startTime": 1015,
         "endTime": 1155,
         "roomIds": "231",
@@ -2391,7 +2182,7 @@
     "similarcourses": "(BIO1011)现代生命科学导论C,(BIO1002)现代生命科学导论B,(BIO1012)生命科学导论A,(BIO1013)生命科学导论B",
     "byThrough": "false",
     "bstdLimit": "50",
-    "bstdCount": "45",
+    "bstdCount": "47",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -2523,7 +2314,7 @@
     "similarcourses": "(BIO1011)现代生命科学导论C,(BIO1002)现代生命科学导论B,(BIO1012)生命科学导论A,(BIO1013)生命科学导论B",
     "byThrough": "false",
     "bstdLimit": "50",
-    "bstdCount": "50",
+    "bstdCount": "48",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -2563,7 +2354,7 @@
     "courseMoldName": "本科生课程",
     "gradeRecord": "英文等级制",
     "startWeek": 2,
-    "endWeek": 13,
+    "endWeek": 14,
     "courseTypeId": 19,
     "courseTypeName": "专业必修",
     "courseTypeCode": "019",
@@ -2589,16 +2380,27 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "42",
-    "bstdCount": "42",
+    "bstdCount": "41",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 4,
-        "weekState": "00111111111111000000000000000000000000000000000000000",
+        "weekState": "00000000000000100000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 8,
-        "weekStateDigest": "2-13",
+        "weekStateDigest": "14",
+        "startTime": 1300,
+        "endTime": 1640,
+        "roomIds": "461",
+        "rooms": "生命学院A409"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00111111101111000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 8,
+        "weekStateDigest": "2-8,10-13",
         "startTime": 1300,
         "endTime": 1640,
         "roomIds": "461",
@@ -2618,7 +2420,7 @@
     "courseMoldName": "本科生课程",
     "gradeRecord": "英文等级制",
     "startWeek": 2,
-    "endWeek": 13,
+    "endWeek": 14,
     "courseTypeId": 19,
     "courseTypeName": "专业必修",
     "courseTypeCode": "019",
@@ -2644,16 +2446,27 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "38",
+    "bstdCount": "39",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 5,
-        "weekState": "00111111111111000000000000000000000000000000000000000",
+        "weekState": "00111111101111000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 8,
-        "weekStateDigest": "2-13",
+        "weekStateDigest": "2-8,10-13",
+        "startTime": 1300,
+        "endTime": 1640,
+        "roomIds": "461",
+        "rooms": "生命学院A409"
+      },
+      {
+        "weekDay": 5,
+        "weekState": "00000000000000100000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 8,
+        "weekStateDigest": "14",
         "startTime": 1300,
         "endTime": 1640,
         "roomIds": "461",
@@ -2673,7 +2486,7 @@
     "courseMoldName": "本科生课程",
     "gradeRecord": "英文等级制",
     "startWeek": 2,
-    "endWeek": 13,
+    "endWeek": 14,
     "courseTypeId": 19,
     "courseTypeName": "专业必修",
     "courseTypeCode": "019",
@@ -2699,16 +2512,27 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "34",
-    "bstdCount": "33",
+    "bstdCount": "34",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 4,
-        "weekState": "00111111111111000000000000000000000000000000000000000",
+        "weekState": "00000000000000100000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 8,
-        "weekStateDigest": "2-13",
+        "weekStateDigest": "14",
+        "startTime": 1300,
+        "endTime": 1640,
+        "roomIds": "361",
+        "rooms": "生命学院A407-1"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00111111101111000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 8,
+        "weekStateDigest": "2-8,10-13",
         "startTime": 1300,
         "endTime": 1640,
         "roomIds": "361",
@@ -2728,7 +2552,7 @@
     "courseMoldName": "本科生课程",
     "gradeRecord": "英文等级制",
     "startWeek": 2,
-    "endWeek": 13,
+    "endWeek": 14,
     "courseTypeId": 19,
     "courseTypeName": "专业必修",
     "courseTypeCode": "019",
@@ -2754,16 +2578,27 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "34",
-    "bstdCount": "34",
+    "bstdCount": "33",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 5,
-        "weekState": "00111111111111000000000000000000000000000000000000000",
+        "weekState": "00111111101111000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 8,
-        "weekStateDigest": "2-13",
+        "weekStateDigest": "2-8,10-13",
+        "startTime": 1300,
+        "endTime": 1640,
+        "roomIds": "361",
+        "rooms": "生命学院A407-1"
+      },
+      {
+        "weekDay": 5,
+        "weekState": "00000000000000100000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 8,
+        "weekStateDigest": "14",
         "startTime": 1300,
         "endTime": 1640,
         "roomIds": "361",
@@ -2809,7 +2644,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "105",
-    "bstdCount": "97",
+    "bstdCount": "90",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -2900,72 +2735,6 @@
         "endTime": 1155,
         "roomIds": "461,361",
         "rooms": "生命学院A409,生命学院A407-1"
-      }
-    ]
-  },
-  {
-    "id": 62594,
-    "no": "BIO1066.01",
-    "name": "血管生物学",
-    "code": "BIO1066",
-    "credits": 3,
-    "courseId": 4405,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 20,
-    "courseTypeName": "专业选修",
-    "courseTypeCode": "020",
-    "teachDepartId": 21,
-    "teachDepartName": "生命科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 3,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "张辉",
-    "teacherIds": "1688",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "100716",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "年级:2024级 2025级 2023级 2022级,专业:生物科学 生物医学工程 生物技术",
-    "preRequirement": "",
-    "similarcourses": "(SL1011)心血管健康与疾病",
-    "byThrough": "false",
-    "bstdLimit": "30",
-    "bstdCount": "3",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 4,
-        "weekState": "00101010101010101000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "2-16双",
-        "startTime": 1300,
-        "endTime": 1440,
-        "roomIds": "250",
-        "rooms": "生命学院A112"
-      },
-      {
-        "weekDay": 5,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-16",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "250",
-        "rooms": "生命学院A112"
       }
     ]
   },
@@ -3007,7 +2776,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "9",
+    "bstdCount": "7",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -3073,7 +2842,7 @@
     "similarcourses": "(BME1047)生理学",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "29",
+    "bstdCount": "28",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -3139,7 +2908,7 @@
     "similarcourses": "(BME1048)发育及衰老生物学",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "11",
+    "bstdCount": "13",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -3194,7 +2963,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "40",
+    "bstdCount": "36",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -3249,7 +3018,7 @@
     "similarcourses": "(BIO1206)微生物学",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "32",
+    "bstdCount": "29",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -3303,10 +3072,21 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "3",
+    "bstdCount": "2",
     "ystdLimit": "990",
-    "ystdCount": "24",
+    "ystdCount": "20",
     "arrangeInfo": [
+      {
+        "weekDay": 3,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "13-16",
+        "startTime": 1300,
+        "endTime": 1355,
+        "roomIds": "245",
+        "rooms": "生命学院A107"
+      },
       {
         "weekDay": 3,
         "weekState": "01111111111110000000000000000000000000000000000000000",
@@ -3320,21 +3100,10 @@
       },
       {
         "weekDay": 1,
-        "weekState": "01010101010101000000000000000000000000000000000000000",
+        "weekState": "00000000000000010000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
-        "weekStateDigest": "1-13单",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "245",
-        "rooms": "生命学院A107"
-      },
-      {
-        "weekDay": 3,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "13-16",
+        "weekStateDigest": "15",
         "startTime": 1300,
         "endTime": 1355,
         "roomIds": "245",
@@ -3342,10 +3111,10 @@
       },
       {
         "weekDay": 1,
-        "weekState": "00000000000000010000000000000000000000000000000000000",
+        "weekState": "01010101010101000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
-        "weekStateDigest": "15",
+        "weekStateDigest": "1-13单",
         "startTime": 1300,
         "endTime": 1355,
         "roomIds": "245",
@@ -3390,9 +3159,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "23",
-    "bstdCount": "23",
+    "bstdCount": "20",
     "ystdLimit": "67",
-    "ystdCount": "67",
+    "ystdCount": "68",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -3455,9 +3224,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "14",
-    "bstdCount": "14",
+    "bstdCount": "10",
     "ystdLimit": "76",
-    "ystdCount": "76",
+    "ystdCount": "74",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -3509,9 +3278,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "45",
-    "bstdCount": "45",
+    "bstdCount": "46",
     "ystdLimit": "45",
-    "ystdCount": "13",
+    "ystdCount": "17",
     "arrangeInfo": [
       {
         "weekDay": 3,
@@ -3560,9 +3329,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "500",
-    "bstdCount": "8",
+    "bstdCount": "6",
     "ystdLimit": "500",
-    "ystdCount": "16",
+    "ystdCount": "17",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -3611,9 +3380,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "1",
+    "bstdCount": "4",
     "ystdLimit": "10",
-    "ystdCount": "9",
+    "ystdCount": "4",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -3732,7 +3501,7 @@
     "similarcourses": "(EE115A)模拟电路",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "12",
+    "bstdCount": "11",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -3798,16 +3567,27 @@
     "similarcourses": "(EE152)数字信号处理,(BME1106)生物医学信号与系统II",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "35",
+    "bstdCount": "34",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 3,
-        "weekState": "01010101010101010000000000000000000000000000000000000",
+        "weekState": "00000000100000000000000000000000000000000000000000000",
+        "startUnit": 1,
+        "endUnit": 2,
+        "weekStateDigest": "8",
+        "startTime": 815,
+        "endTime": 955,
+        "roomIds": "209",
+        "rooms": "信息学院1A106"
+      },
+      {
+        "weekDay": 3,
+        "weekState": "01000101010101010000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "1-15单",
+        "weekStateDigest": "1,5-15单",
         "startTime": 1015,
         "endTime": 1155,
         "roomIds": "211",
@@ -3815,14 +3595,25 @@
       },
       {
         "weekDay": 5,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
+        "weekState": "01011111111111111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "1-16",
+        "weekStateDigest": "1-3单,4-16",
         "startTime": 1015,
         "endTime": 1155,
         "roomIds": "211",
         "rooms": "信息学院1B108"
+      },
+      {
+        "weekDay": 3,
+        "weekState": "00000010000000000000000000000000000000000000000000000",
+        "startUnit": 1,
+        "endUnit": 2,
+        "weekStateDigest": "6",
+        "startTime": 815,
+        "endTime": 955,
+        "roomIds": "209",
+        "rooms": "信息学院1A106"
       }
     ]
   },
@@ -3864,9 +3655,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "63",
-    "bstdCount": "57",
+    "bstdCount": "58",
     "ystdLimit": "9",
-    "ystdCount": "7",
+    "ystdCount": "6",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -3919,7 +3710,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "25",
-    "bstdCount": "18",
+    "bstdCount": "16",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -4012,17 +3803,6 @@
     "ystdCount": "0",
     "arrangeInfo": [
       {
-        "weekDay": 4,
-        "weekState": "01010101010101010000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-15单",
-        "startTime": 1300,
-        "endTime": 1440,
-        "roomIds": "212",
-        "rooms": "信息学院1B110"
-      },
-      {
         "weekDay": 2,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 5,
@@ -4030,8 +3810,19 @@
         "weekStateDigest": "1-16",
         "startTime": 1300,
         "endTime": 1440,
-        "roomIds": "212",
-        "rooms": "信息学院1B110"
+        "roomIds": "1494",
+        "rooms": "信息学院2-215"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "01010101010101010000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "1-15单",
+        "startTime": 1300,
+        "endTime": 1440,
+        "roomIds": "1494",
+        "rooms": "信息学院2-215"
       }
     ]
   },
@@ -4161,7 +3952,7 @@
     "similarcourses": "(BME1301)人工智能在医学影像中的应用",
     "byThrough": "false",
     "bstdLimit": "65",
-    "bstdCount": "62",
+    "bstdCount": "57",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -4173,8 +3964,8 @@
         "weekStateDigest": "1-15单",
         "startTime": 1500,
         "endTime": 1640,
-        "roomIds": "212",
-        "rooms": "信息学院1B110"
+        "roomIds": "220",
+        "rooms": "信息学院1D104"
       },
       {
         "weekDay": 1,
@@ -4184,8 +3975,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1500,
         "endTime": 1640,
-        "roomIds": "212",
-        "rooms": "信息学院1B110"
+        "roomIds": "220",
+        "rooms": "信息学院1D104"
       }
     ]
   },
@@ -4227,7 +4018,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "14",
+    "bstdCount": "18",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -4370,7 +4161,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "11",
+    "bstdCount": "6",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -4393,8 +4184,8 @@
         "weekStateDigest": "1-15单",
         "startTime": 1500,
         "endTime": 1640,
-        "roomIds": "215",
-        "rooms": "信息学院1B-103"
+        "roomIds": "212",
+        "rooms": "信息学院1B110"
       },
       {
         "weekDay": 3,
@@ -4404,8 +4195,8 @@
         "weekStateDigest": "4",
         "startTime": 1500,
         "endTime": 1640,
-        "roomIds": "215",
-        "rooms": "信息学院1B-103"
+        "roomIds": "212",
+        "rooms": "信息学院1B110"
       }
     ]
   },
@@ -4447,7 +4238,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "6",
+    "bstdCount": "7",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -4577,25 +4368,25 @@
     "bstdLimit": "5",
     "bstdCount": "0",
     "ystdLimit": "45",
-    "ystdCount": "31",
+    "ystdCount": "35",
     "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01010101010101010000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-15单",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "421",
-        "rooms": "信息学院1A108"
-      },
       {
         "weekDay": 1,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
         "weekStateDigest": "1-16",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "421",
+        "rooms": "信息学院1A108"
+      },
+      {
+        "weekDay": 3,
+        "weekState": "01010101010101010000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-15单",
         "startTime": 1015,
         "endTime": 1110,
         "roomIds": "421",
@@ -4637,27 +4428,16 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "5",
-    "bstdCount": "1",
+    "bstdCount": "2",
     "ystdLimit": "45",
-    "ystdCount": "44",
+    "ystdCount": "37",
     "arrangeInfo": [
       {
         "weekDay": 1,
-        "weekState": "00000001000000000000000000000000000000000000000000000",
+        "weekState": "01111110000000000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
-        "weekStateDigest": "7",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "1754",
-        "rooms": "信息学院4-105C-教学实验室"
-      },
-      {
-        "weekDay": 1,
-        "weekState": "00000000111111111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "8-16",
+        "weekStateDigest": "1-6",
         "startTime": 1500,
         "endTime": 1555,
         "roomIds": "222",
@@ -4676,25 +4456,25 @@
       },
       {
         "weekDay": 1,
-        "weekState": "01111110000000000000000000000000000000000000000000000",
+        "weekState": "00000000111111111000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
-        "weekStateDigest": "1-6",
+        "weekStateDigest": "8-16",
         "startTime": 1500,
         "endTime": 1555,
         "roomIds": "222",
         "rooms": "信息学院1D108"
       },
       {
-        "weekDay": 3,
-        "weekState": "00100000000000000000000000000000000000000000000000000",
+        "weekDay": 1,
+        "weekState": "00000001000000000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
-        "weekStateDigest": "2",
+        "weekStateDigest": "7",
         "startTime": 1500,
         "endTime": 1555,
-        "roomIds": "222",
-        "rooms": "信息学院1D108"
+        "roomIds": "1754",
+        "rooms": "信息学院4-105C-教学实验室"
       },
       {
         "weekDay": 3,
@@ -4706,6 +4486,17 @@
         "endTime": 1555,
         "roomIds": "1754",
         "rooms": "信息学院4-105C-教学实验室"
+      },
+      {
+        "weekDay": 3,
+        "weekState": "00100000000000000000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "2",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "222",
+        "rooms": "信息学院1D108"
       }
     ]
   },
@@ -4745,7 +4536,7 @@
     "bstdLimit": "3",
     "bstdCount": "0",
     "ystdLimit": "47",
-    "ystdCount": "38",
+    "ystdCount": "37",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -4805,21 +4596,10 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "4",
-    "bstdCount": "1",
+    "bstdCount": "2",
     "ystdLimit": "26",
-    "ystdCount": "6",
+    "ystdCount": "8",
     "arrangeInfo": [
-      {
-        "weekDay": 6,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 13,
-        "endUnit": 13,
-        "weekStateDigest": "1-16",
-        "startTime": 2045,
-        "endTime": 2045,
-        "roomIds": "485",
-        "rooms": "创管学院215"
-      },
       {
         "weekDay": 2,
         "weekState": "01111111111111111000000000000000000000000000000000000",
@@ -4830,6 +4610,17 @@
         "endTime": 1355,
         "roomIds": "210",
         "rooms": "信息学院1B106"
+      },
+      {
+        "weekDay": 6,
+        "weekState": "01111111111111111000000000000000000000000000000000000",
+        "startUnit": 13,
+        "endUnit": 13,
+        "weekStateDigest": "1-16",
+        "startTime": 2045,
+        "endTime": 2045,
+        "roomIds": "485",
+        "rooms": "创管学院215"
       }
     ]
   },
@@ -4871,7 +4662,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "45",
-    "bstdCount": "43",
+    "bstdCount": "45",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -4926,21 +4717,10 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "35",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
-      {
-        "weekDay": 2,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-16",
-        "startTime": 1500,
-        "endTime": 1640,
-        "roomIds": "250",
-        "rooms": "生命学院A112"
-      },
       {
         "weekDay": 2,
         "weekState": "01111111111111111000000000000000000000000000000000000",
@@ -4949,8 +4729,19 @@
         "weekStateDigest": "1-16",
         "startTime": 1800,
         "endTime": 1940,
-        "roomIds": "250",
-        "rooms": "生命学院A112"
+        "roomIds": "245",
+        "rooms": "生命学院A107"
+      },
+      {
+        "weekDay": 2,
+        "weekState": "01111111111111111000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "1-16",
+        "startTime": 1500,
+        "endTime": 1640,
+        "roomIds": "245",
+        "rooms": "生命学院A107"
       }
     ]
   },
@@ -4992,7 +4783,7 @@
     "similarcourses": "(BME1206)药物研发原理与实例",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "30",
+    "bstdCount": "29",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5058,7 +4849,7 @@
     "similarcourses": "(BIO2045)分子药理学概论",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "22",
+    "bstdCount": "25",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5113,7 +4904,7 @@
     "similarcourses": "(BME1205)计算生物学",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "21",
+    "bstdCount": "20",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5179,7 +4970,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "10",
+    "bstdCount": "11",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5252,72 +5043,6 @@
     ]
   },
   {
-    "id": 62731,
-    "no": "BT1084.01",
-    "name": "干细胞、类器官与再生医学",
-    "code": "BT1084",
-    "credits": 3,
-    "courseId": 7304,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 20,
-    "courseTypeName": "专业选修",
-    "courseTypeCode": "020",
-    "teachDepartId": 21,
-    "teachDepartName": "生命科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "林照博",
-    "teacherIds": "8419",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "100793",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "年级:2025级 2024级 2022级 2023级,专业:生物科学 生物技术;",
-    "preRequirement": "",
-    "similarcourses": "(BT1081)干细胞与再生医学",
-    "byThrough": "false",
-    "bstdLimit": "30",
-    "bstdCount": "2",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 5,
-        "weekState": "01010101010101010000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-15单",
-        "startTime": 1300,
-        "endTime": 1440,
-        "roomIds": "247",
-        "rooms": "生命学院A109"
-      },
-      {
-        "weekDay": 2,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-16",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "247",
-        "rooms": "生命学院A109"
-      }
-    ]
-  },
-  {
     "id": 64629,
     "no": "BT2002.01",
     "name": "生物信息学",
@@ -5351,9 +5076,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "500",
-    "bstdCount": "15",
+    "bstdCount": "13",
     "ystdLimit": "500",
-    "ystdCount": "30",
+    "ystdCount": "15",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -5402,9 +5127,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "10",
+    "bstdCount": "9",
     "ystdLimit": "16",
-    "ystdCount": "16",
+    "ystdCount": "17",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -5453,9 +5178,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "500",
-    "bstdCount": "6",
+    "bstdCount": "10",
     "ystdLimit": "500",
-    "ystdCount": "39",
+    "ystdCount": "42",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -5508,7 +5233,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "34",
-    "bstdCount": "27",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5574,7 +5299,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "34",
-    "bstdCount": "25",
+    "bstdCount": "29",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5640,7 +5365,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "34",
-    "bstdCount": "34",
+    "bstdCount": "33",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5706,7 +5431,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "34",
-    "bstdCount": "19",
+    "bstdCount": "18",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5838,7 +5563,7 @@
     "similarcourses": "(CHEM1102)普通化学IB,(CHEM1101)普通化学IA,(CHEM1120)大学化学",
     "byThrough": "false",
     "bstdLimit": "60",
-    "bstdCount": "17",
+    "bstdCount": "16",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5915,7 +5640,7 @@
     "similarcourses": "(CHEM1102)普通化学IB,(CHEM1101)普通化学IA,(CHEM1120)大学化学",
     "byThrough": "false",
     "bstdLimit": "60",
-    "bstdCount": "40",
+    "bstdCount": "47",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -5992,7 +5717,7 @@
     "similarcourses": "(CHEM1102)普通化学IB,(CHEM1101)普通化学IA,(CHEM1120)大学化学",
     "byThrough": "false",
     "bstdLimit": "60",
-    "bstdCount": "60",
+    "bstdCount": "59",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -6069,7 +5794,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "36",
-    "bstdCount": "34",
+    "bstdCount": "36",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -6179,7 +5904,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "36",
-    "bstdCount": "36",
+    "bstdCount": "35",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -6234,7 +5959,7 @@
     "similarcourses": "(BIO1014)普通化学IIB",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "38",
+    "bstdCount": "39",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -6311,7 +6036,7 @@
     "similarcourses": "(BIO1014)普通化学IIB",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "37",
+    "bstdCount": "38",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -6388,7 +6113,7 @@
     "similarcourses": "(BIO1014)普通化学IIB",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "35",
+    "bstdCount": "40",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -6560,72 +6285,6 @@
     ]
   },
   {
-    "id": 63411,
-    "no": "CHEM1191.01",
-    "name": "分析化学",
-    "code": "CHEM1191",
-    "credits": 3,
-    "courseId": 1209,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 19,
-    "courseTypeName": "专业必修",
-    "courseTypeCode": "019",
-    "teachDepartId": 23,
-    "teachDepartName": "物质科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 3,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "曹金丽,黄逸凡",
-    "teacherIds": "463885,734458",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "100914",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "年级:2024级 2025级,专业:化学 生物科学 生物医学工程 生物技术",
-    "preRequirement": "作为必修课《分析化学》应与《分析化学实验》同修；作为选修课可以只选理论课，不选实验课。建议大一或大二修读。",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "30",
-    "bstdCount": "1",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 1,
-        "endUnit": 2,
-        "weekStateDigest": "1-16",
-        "startTime": 815,
-        "endTime": 955,
-        "roomIds": "261",
-        "rooms": "物质学院 1-107"
-      },
-      {
-        "weekDay": 1,
-        "weekState": "00011111111111110000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 8,
-        "weekStateDigest": "3-15",
-        "startTime": 1300,
-        "endTime": 1640,
-        "roomIds": "281",
-        "rooms": "物质学院 2-309"
-      }
-    ]
-  },
-  {
     "id": 63467,
     "no": "CHEM1322.01",
     "name": "有机化学基础",
@@ -6663,7 +6322,7 @@
     "similarcourses": "(CHEM1321)有机化学I",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "23",
+    "bstdCount": "24",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -7143,9 +6802,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "0",
+    "bstdCount": "1",
     "ystdLimit": "80",
-    "ystdCount": "41",
+    "ystdCount": "34",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -7194,9 +6853,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "0",
+    "bstdCount": "1",
     "ystdLimit": "80",
-    "ystdCount": "7",
+    "ystdCount": "8",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -7247,7 +6906,7 @@
     "bstdLimit": "20",
     "bstdCount": "0",
     "ystdLimit": "80",
-    "ystdCount": "16",
+    "ystdCount": "15",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -7299,9 +6958,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "0",
+    "bstdCount": "3",
     "ystdLimit": "80",
-    "ystdCount": "29",
+    "ystdCount": "30",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -7352,7 +7011,7 @@
     "bstdLimit": "20",
     "bstdCount": "9",
     "ystdLimit": "80",
-    "ystdCount": "25",
+    "ystdCount": "26",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -7403,7 +7062,7 @@
     "bstdLimit": "20",
     "bstdCount": "1",
     "ystdLimit": "80",
-    "ystdCount": "10",
+    "ystdCount": "9",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -7454,7 +7113,7 @@
     "bstdLimit": "20",
     "bstdCount": "1",
     "ystdLimit": "80",
-    "ystdCount": "13",
+    "ystdCount": "12",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -7503,9 +7162,9 @@
     "similarcourses": "(CHEM1523)绿色化学",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "13",
+    "bstdCount": "11",
     "ystdLimit": "80",
-    "ystdCount": "39",
+    "ystdCount": "26",
     "arrangeInfo": [
       {
         "weekDay": 3,
@@ -7515,8 +7174,8 @@
         "weekStateDigest": "1-16",
         "startTime": 815,
         "endTime": 910,
-        "roomIds": "272",
-        "rooms": "物质学院 1-303"
+        "roomIds": "495",
+        "rooms": "物质学院 1-501"
       }
     ]
   },
@@ -7554,21 +7213,10 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "5",
-    "bstdCount": "4",
+    "bstdCount": "3",
     "ystdLimit": "7",
-    "ystdCount": "7",
+    "ystdCount": "9",
     "arrangeInfo": [
-      {
-        "weekDay": 5,
-        "weekState": "01111111100000000000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-8",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "1856",
-        "rooms": "物质学院2-201"
-      },
       {
         "weekDay": 5,
         "weekState": "00000000011111111000000000000000000000000000000000000",
@@ -7577,6 +7225,17 @@
         "weekStateDigest": "9-16",
         "startTime": 1300,
         "endTime": 1800,
+        "roomIds": "1856",
+        "rooms": "物质学院2-201"
+      },
+      {
+        "weekDay": 5,
+        "weekState": "01111111100000000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "1-8",
+        "startTime": 1300,
+        "endTime": 1355,
         "roomIds": "1856",
         "rooms": "物质学院2-201"
       }
@@ -7621,7 +7280,7 @@
     "bstdLimit": "5",
     "bstdCount": "1",
     "ystdLimit": "7",
-    "ystdCount": "7",
+    "ystdCount": "11",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -7670,7 +7329,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "4",
+    "bstdCount": "7",
     "ystdLimit": "80",
     "ystdCount": "25",
     "arrangeInfo": [
@@ -7699,7 +7358,7 @@
     "courseMoldName": "本科生课程",
     "gradeRecord": "英文等级制",
     "startWeek": 1,
-    "endWeek": 4,
+    "endWeek": 5,
     "courseTypeId": 84,
     "courseTypeName": "任意选修课",
     "courseTypeCode": "044",
@@ -7725,7 +7384,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "146",
-    "bstdCount": "146",
+    "bstdCount": "134",
     "ystdLimit": "4",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -7737,8 +7396,8 @@
         "weekStateDigest": "1-4",
         "startTime": 1800,
         "endTime": 2130,
-        "roomIds": "181",
-        "rooms": "创管学院219"
+        "roomIds": "113",
+        "rooms": "教学中心101"
       }
     ]
   },
@@ -7780,9 +7439,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "11",
+    "bstdCount": "10",
     "ystdLimit": "5",
-    "ystdCount": "1",
+    "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -7835,7 +7494,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "19",
+    "bstdCount": "25",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -7890,9 +7549,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "16",
-    "bstdCount": "9",
+    "bstdCount": "8",
     "ystdLimit": "14",
-    "ystdCount": "1",
+    "ystdCount": "4",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -8011,7 +7670,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "80",
-    "bstdCount": "79",
+    "bstdCount": "77",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8077,7 +7736,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "23",
+    "bstdCount": "24",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8132,7 +7791,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "8",
+    "bstdCount": "11",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8187,7 +7846,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "24",
+    "bstdCount": "22",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8352,7 +8011,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "24",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8462,7 +8121,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "22",
+    "bstdCount": "24",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8517,7 +8176,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "70",
-    "bstdCount": "36",
+    "bstdCount": "29",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8583,7 +8242,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "150",
-    "bstdCount": "47",
+    "bstdCount": "44",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8649,7 +8308,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "40",
-    "bstdCount": "18",
+    "bstdCount": "13",
     "ystdLimit": "10",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8663,72 +8322,6 @@
         "endTime": 1155,
         "roomIds": "235",
         "rooms": "教学中心403"
-      }
-    ]
-  },
-  {
-    "id": 63298,
-    "no": "CS140A.01",
-    "name": "算法（H）",
-    "code": "CS140A",
-    "credits": 4,
-    "courseId": 7992,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 19,
-    "courseTypeName": "专业必修",
-    "courseTypeCode": "019",
-    "teachDepartId": 22,
-    "teachDepartName": "信息科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 64,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "范睿",
-    "teacherIds": "1947",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "100737",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "年级:2025级 专业:计算机科学与技术人工智能荣誉班",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "22",
-    "bstdCount": "22",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 1,
-        "endUnit": 2,
-        "weekStateDigest": "1-16",
-        "startTime": 815,
-        "endTime": 955,
-        "roomIds": "209",
-        "rooms": "信息学院1A106"
-      },
-      {
-        "weekDay": 4,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-16",
-        "startTime": 1300,
-        "endTime": 1440,
-        "roomIds": "209",
-        "rooms": "信息学院1A106"
       }
     ]
   },
@@ -8770,7 +8363,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "150",
-    "bstdCount": "14",
+    "bstdCount": "10",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8836,7 +8429,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "150",
-    "bstdCount": "15",
+    "bstdCount": "22",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -8902,20 +8495,31 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "100",
-    "bstdCount": "39",
+    "bstdCount": "32",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 4,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "weekState": "00111111111110000000000000000000000000000000000000000",
         "startUnit": 1,
         "endUnit": 2,
-        "weekStateDigest": "1-12",
+        "weekStateDigest": "2-12",
         "startTime": 815,
         "endTime": 955,
-        "roomIds": "229",
-        "rooms": "教学中心301"
+        "roomIds": "235",
+        "rooms": "教学中心403"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "01000000000000000000000000000000000000000000000000000",
+        "startUnit": 1,
+        "endUnit": 2,
+        "weekStateDigest": "1",
+        "startTime": 815,
+        "endTime": 955,
+        "roomIds": "235",
+        "rooms": "教学中心403"
       },
       {
         "weekDay": 2,
@@ -8925,8 +8529,8 @@
         "weekStateDigest": "1-12",
         "startTime": 815,
         "endTime": 955,
-        "roomIds": "229",
-        "rooms": "教学中心301"
+        "roomIds": "235",
+        "rooms": "教学中心403"
       }
     ]
   },
@@ -9034,7 +8638,7 @@
     "similarcourses": "(CS177H)生物信息学：软件开发与应用",
     "byThrough": "false",
     "bstdLimit": "150",
-    "bstdCount": "18",
+    "bstdCount": "14",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -9100,7 +8704,7 @@
     "similarcourses": "(BME1322)人工智能（BME）,(CS281)人工智能,(CS281H)人工智能,(BME1306)生物医学智能计算",
     "byThrough": "false",
     "bstdLimit": "120",
-    "bstdCount": "74",
+    "bstdCount": "77",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -9232,31 +8836,20 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "50",
-    "bstdCount": "50",
+    "bstdCount": "44",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 4,
-        "weekState": "00000001100000000000000000000000000000000000000000000",
+        "weekState": "01110000000000000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "7-8",
+        "weekStateDigest": "1-3",
         "startTime": 1015,
         "endTime": 1155,
-        "roomIds": "222",
-        "rooms": "信息学院1D108"
-      },
-      {
-        "weekDay": 2,
-        "weekState": "00000001100000000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "7-8",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "222",
-        "rooms": "信息学院1D108"
+        "roomIds": "236",
+        "rooms": "教学中心404"
       },
       {
         "weekDay": 4,
@@ -9266,8 +8859,30 @@
         "weekStateDigest": "4-6",
         "startTime": 1015,
         "endTime": 1155,
-        "roomIds": "222",
-        "rooms": "信息学院1D108"
+        "roomIds": "236",
+        "rooms": "教学中心404"
+      },
+      {
+        "weekDay": 2,
+        "weekState": "01110000000000000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-3",
+        "startTime": 1015,
+        "endTime": 1155,
+        "roomIds": "236",
+        "rooms": "教学中心404"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000001100000000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "7-8",
+        "startTime": 1015,
+        "endTime": 1155,
+        "roomIds": "236",
+        "rooms": "教学中心404"
       },
       {
         "weekDay": 2,
@@ -9277,30 +8892,19 @@
         "weekStateDigest": "4-6",
         "startTime": 1015,
         "endTime": 1155,
-        "roomIds": "222",
-        "rooms": "信息学院1D108"
-      },
-      {
-        "weekDay": 4,
-        "weekState": "01110000000000000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-3",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "222",
-        "rooms": "信息学院1D108"
+        "roomIds": "236",
+        "rooms": "教学中心404"
       },
       {
         "weekDay": 2,
-        "weekState": "01110000000000000000000000000000000000000000000000000",
+        "weekState": "00000001100000000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "1-3",
+        "weekStateDigest": "7-8",
         "startTime": 1015,
         "endTime": 1155,
-        "roomIds": "222",
-        "rooms": "信息学院1D108"
+        "roomIds": "236",
+        "rooms": "教学中心404"
       }
     ]
   },
@@ -9341,12 +8945,23 @@
     "similarcourses": "(CS210H)计算机体系结构II",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "2",
+    "bstdCount": "1",
     "ystdLimit": "100",
-    "ystdCount": "38",
+    "ystdCount": "31",
     "arrangeInfo": [
       {
-        "weekDay": 3,
+        "weekDay": 5,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-12",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "209",
+        "rooms": "信息学院1A106"
+      },
+      {
+        "weekDay": 5,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
@@ -9364,11 +8979,11 @@
         "weekStateDigest": "1-12",
         "startTime": 1015,
         "endTime": 1110,
-        "roomIds": "212",
-        "rooms": "信息学院1B110"
+        "roomIds": "209",
+        "rooms": "信息学院1A106"
       },
       {
-        "weekDay": 5,
+        "weekDay": 3,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
@@ -9377,17 +8992,6 @@
         "endTime": 1110,
         "roomIds": "1560",
         "rooms": "虚拟教室002"
-      },
-      {
-        "weekDay": 5,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-12",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "212",
-        "rooms": "信息学院1B110"
       }
     ]
   },
@@ -9425,23 +9029,12 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "3",
+    "bstdCount": "5",
     "ystdLimit": "100",
-    "ystdCount": "2",
+    "ystdCount": "1",
     "arrangeInfo": [
       {
-        "weekDay": 4,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "13-16",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "114",
-        "rooms": "信息学院1A-101"
-      },
-      {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
@@ -9463,7 +9056,7 @@
         "rooms": "信息学院1A-101"
       },
       {
-        "weekDay": 2,
+        "weekDay": 4,
         "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
@@ -9472,6 +9065,17 @@
         "endTime": 1110,
         "roomIds": "211",
         "rooms": "信息学院1B108"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "13-16",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "114",
+        "rooms": "信息学院1A-101"
       }
     ]
   },
@@ -9512,12 +9116,23 @@
     "similarcourses": "(CS240H)算法设计与分析",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "20",
+    "bstdCount": "23",
     "ystdLimit": "130",
-    "ystdCount": "100",
+    "ystdCount": "98",
     "arrangeInfo": [
       {
         "weekDay": 4,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "1-12",
+        "startTime": 1300,
+        "endTime": 1355,
+        "roomIds": "225",
+        "rooms": "教学中心201"
+      },
+      {
+        "weekDay": 2,
         "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -9537,17 +9152,6 @@
         "endTime": 1355,
         "roomIds": "1560",
         "rooms": "虚拟教室002"
-      },
-      {
-        "weekDay": 2,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-12",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "225",
-        "rooms": "教学中心201"
       },
       {
         "weekDay": 2,
@@ -9599,23 +9203,34 @@
     "similarcourses": "(CS243H)算法博弈导论",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "18",
+    "bstdCount": "20",
     "ystdLimit": "100",
-    "ystdCount": "23",
+    "ystdCount": "22",
     "arrangeInfo": [
       {
         "weekDay": 4,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
-        "weekStateDigest": "13-16",
+        "weekStateDigest": "1-12",
         "startTime": 1300,
         "endTime": 1355,
-        "roomIds": "481",
-        "rooms": "教学中心201"
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
       },
       {
         "weekDay": 4,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "13-16",
+        "startTime": 1300,
+        "endTime": 1355,
+        "roomIds": "481",
+        "rooms": "教学中心201(虚拟)"
+      },
+      {
+        "weekDay": 2,
         "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -9634,18 +9249,7 @@
         "startTime": 1300,
         "endTime": 1355,
         "roomIds": "481",
-        "rooms": "教学中心201"
-      },
-      {
-        "weekDay": 2,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-12",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "224",
-        "rooms": "信息学院1D107"
+        "rooms": "教学中心201(虚拟)"
       }
     ]
   },
@@ -9683,12 +9287,12 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "3",
+    "bstdCount": "4",
     "ystdLimit": "100",
     "ystdCount": "22",
     "arrangeInfo": [
       {
-        "weekDay": 1,
+        "weekDay": 3,
         "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -9699,7 +9303,7 @@
         "rooms": "信息学院2-215"
       },
       {
-        "weekDay": 1,
+        "weekDay": 3,
         "weekState": "00000000011110000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -9710,7 +9314,7 @@
         "rooms": "虚拟教室003"
       },
       {
-        "weekDay": 3,
+        "weekDay": 1,
         "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -9721,7 +9325,7 @@
         "rooms": "信息学院2-215"
       },
       {
-        "weekDay": 3,
+        "weekDay": 1,
         "weekState": "00000000011110000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -9767,10 +9371,21 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "1",
+    "bstdCount": "2",
     "ystdLimit": "100",
-    "ystdCount": "9",
+    "ystdCount": "7",
     "arrangeInfo": [
+      {
+        "weekDay": 3,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "13-16",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "481",
+        "rooms": "教学中心201(虚拟)"
+      },
       {
         "weekDay": 3,
         "weekState": "01111111111110000000000000000000000000000000000000000",
@@ -9791,18 +9406,7 @@
         "startTime": 1500,
         "endTime": 1555,
         "roomIds": "481",
-        "rooms": "教学中心201"
-      },
-      {
-        "weekDay": 3,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "13-16",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "481",
-        "rooms": "教学中心201"
+        "rooms": "教学中心201(虚拟)"
       },
       {
         "weekDay": 1,
@@ -9851,21 +9455,10 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "3",
+    "bstdCount": "2",
     "ystdLimit": "100",
     "ystdCount": "6",
     "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "13-16",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "1561",
-        "rooms": "虚拟教室003"
-      },
       {
         "weekDay": 1,
         "weekState": "01111111111110000000000000000000000000000000000000000",
@@ -9879,6 +9472,17 @@
       },
       {
         "weekDay": 3,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "13-16",
+        "startTime": 1300,
+        "endTime": 1355,
+        "roomIds": "1561",
+        "rooms": "虚拟教室003"
+      },
+      {
+        "weekDay": 1,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -9937,18 +9541,18 @@
     "bstdLimit": "100",
     "bstdCount": "0",
     "ystdLimit": "100",
-    "ystdCount": "9",
+    "ystdCount": "7",
     "arrangeInfo": [
       {
         "weekDay": 2,
-        "weekState": "01111111100000000000000000000000000000000000000000000",
+        "weekState": "00000000000000011000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
-        "weekStateDigest": "1-8",
+        "weekStateDigest": "15-16",
         "startTime": 1500,
         "endTime": 1555,
-        "roomIds": "224",
-        "rooms": "信息学院1D107"
+        "roomIds": "221",
+        "rooms": "信息学院1D106"
       },
       {
         "weekDay": 2,
@@ -9963,25 +9567,25 @@
       },
       {
         "weekDay": 2,
-        "weekState": "00000000000000011000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "15-16",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "224",
-        "rooms": "信息学院1D107"
-      },
-      {
-        "weekDay": 4,
         "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
         "weekStateDigest": "1-8",
         "startTime": 1500,
         "endTime": 1555,
-        "roomIds": "224",
-        "rooms": "信息学院1D107"
+        "roomIds": "221",
+        "rooms": "信息学院1D106"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000000000000011000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "15-16",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "221",
+        "rooms": "信息学院1D106"
       },
       {
         "weekDay": 4,
@@ -9996,14 +9600,14 @@
       },
       {
         "weekDay": 4,
-        "weekState": "00000000000000011000000000000000000000000000000000000",
+        "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
-        "weekStateDigest": "15-16",
+        "weekStateDigest": "1-8",
         "startTime": 1500,
         "endTime": 1555,
-        "roomIds": "224",
-        "rooms": "信息学院1D107"
+        "roomIds": "221",
+        "rooms": "信息学院1D106"
       }
     ]
   },
@@ -10043,24 +9647,13 @@
     "preRequirement": "",
     "similarcourses": "",
     "byThrough": "true",
-    "bstdLimit": "15",
-    "bstdCount": "9",
-    "ystdLimit": "50",
-    "ystdCount": "50",
+    "bstdLimit": "25",
+    "bstdCount": "18",
+    "ystdLimit": "55",
+    "ystdCount": "54",
     "arrangeInfo": [
       {
         "weekDay": 5,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-12",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "224",
-        "rooms": "信息学院1D107"
-      },
-      {
-        "weekDay": 3,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
@@ -10069,20 +9662,20 @@
         "endTime": 1110,
         "roomIds": "1562",
         "rooms": "虚拟教室004"
-      },
-      {
-        "weekDay": 3,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-12",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "224",
-        "rooms": "信息学院1D107"
       },
       {
         "weekDay": 5,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-12",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
+      },
+      {
+        "weekDay": 3,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
@@ -10091,6 +9684,17 @@
         "endTime": 1110,
         "roomIds": "1562",
         "rooms": "虚拟教室004"
+      },
+      {
+        "weekDay": 3,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-12",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
       }
     ]
   },
@@ -10128,9 +9732,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "1",
+    "bstdCount": "2",
     "ystdLimit": "100",
-    "ystdCount": "12",
+    "ystdCount": "7",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -10141,10 +9745,10 @@
         "startTime": 1300,
         "endTime": 1355,
         "roomIds": "481",
-        "rooms": "教学中心201"
+        "rooms": "教学中心201(虚拟)"
       },
       {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -10163,10 +9767,10 @@
         "startTime": 1300,
         "endTime": 1355,
         "roomIds": "481",
-        "rooms": "教学中心201"
+        "rooms": "教学中心201(虚拟)"
       },
       {
-        "weekDay": 2,
+        "weekDay": 4,
         "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -10212,21 +9816,10 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "71",
+    "bstdCount": "67",
     "ystdLimit": "100",
-    "ystdCount": "96",
+    "ystdCount": "90",
     "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-12",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "225",
-        "rooms": "教学中心201"
-      },
       {
         "weekDay": 1,
         "weekState": "00000000000001111000000000000000000000000000000000000",
@@ -10237,6 +9830,17 @@
         "endTime": 1355,
         "roomIds": "1559",
         "rooms": "虚拟教室001"
+      },
+      {
+        "weekDay": 1,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "1-12",
+        "startTime": 1300,
+        "endTime": 1355,
+        "roomIds": "225",
+        "rooms": "教学中心201"
       },
       {
         "weekDay": 3,
@@ -10296,34 +9900,23 @@
     "similarcourses": "(CS275H)计算机动画与物理仿真",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "0",
+    "bstdCount": "1",
     "ystdLimit": "100",
     "ystdCount": "7",
     "arrangeInfo": [
       {
         "weekDay": 4,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
-        "weekStateDigest": "13-16",
+        "weekStateDigest": "1-12",
         "startTime": 1500,
         "endTime": 1555,
-        "roomIds": "484",
-        "rooms": "创管学院214"
+        "roomIds": "212",
+        "rooms": "信息学院1B110"
       },
       {
         "weekDay": 4,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-12",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "212",
-        "rooms": "信息学院1B110"
-      },
-      {
-        "weekDay": 2,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -10343,6 +9936,17 @@
         "endTime": 1555,
         "roomIds": "212",
         "rooms": "信息学院1B110"
+      },
+      {
+        "weekDay": 2,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "13-16",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "484",
+        "rooms": "创管学院214"
       }
     ]
   },
@@ -10383,9 +9987,9 @@
     "similarcourses": "(CS280H)深度学习",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "20",
+    "bstdCount": "18",
     "ystdLimit": "80",
-    "ystdCount": "80",
+    "ystdCount": "82",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -10399,17 +10003,6 @@
         "rooms": "虚拟教室001"
       },
       {
-        "weekDay": 4,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-12",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "112",
-        "rooms": "教学中心102"
-      },
-      {
         "weekDay": 2,
         "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 3,
@@ -10430,6 +10023,17 @@
         "endTime": 1110,
         "roomIds": "1559",
         "rooms": "虚拟教室001"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-12",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "112",
+        "rooms": "教学中心102"
       }
     ]
   },
@@ -10467,33 +10071,11 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "26",
+    "bstdCount": "25",
     "ystdLimit": "100",
     "ystdCount": "59",
     "arrangeInfo": [
       {
-        "weekDay": 5,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "13-16",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "485",
-        "rooms": "创管学院215"
-      },
-      {
-        "weekDay": 5,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-12",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "209",
-        "rooms": "信息学院1A106"
-      },
-      {
         "weekDay": 3,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 3,
@@ -10512,8 +10094,30 @@
         "weekStateDigest": "1-12",
         "startTime": 1015,
         "endTime": 1110,
-        "roomIds": "209",
-        "rooms": "信息学院1A106"
+        "roomIds": "225",
+        "rooms": "教学中心201"
+      },
+      {
+        "weekDay": 5,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "13-16",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "485",
+        "rooms": "创管学院215"
+      },
+      {
+        "weekDay": 5,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-12",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "225",
+        "rooms": "教学中心201"
       }
     ]
   },
@@ -10554,9 +10158,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "20",
+    "bstdCount": "17",
     "ystdLimit": "80",
-    "ystdCount": "80",
+    "ystdCount": "83",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -10641,23 +10245,12 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "3",
+    "bstdCount": "4",
     "ystdLimit": "100",
-    "ystdCount": "26",
+    "ystdCount": "24",
     "arrangeInfo": [
       {
         "weekDay": 2,
-        "weekState": "00000000000100000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "11",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "481",
-        "rooms": "教学中心201"
-      },
-      {
-        "weekDay": 2,
         "weekState": "00000000000011000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -10676,32 +10269,10 @@
         "startTime": 1500,
         "endTime": 1555,
         "roomIds": "481",
-        "rooms": "教学中心201"
+        "rooms": "教学中心201(虚拟)"
       },
       {
-        "weekDay": 4,
-        "weekState": "01110000000000000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-3",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "421",
-        "rooms": "信息学院1A108"
-      },
-      {
-        "weekDay": 4,
-        "weekState": "00001110000000000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "4-6",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "481",
-        "rooms": "教学中心201"
-      },
-      {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "00000001111000000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -10712,7 +10283,7 @@
         "rooms": "信息学院1A108"
       },
       {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "00000000000100000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -10720,29 +10291,7 @@
         "startTime": 1500,
         "endTime": 1555,
         "roomIds": "481",
-        "rooms": "教学中心201"
-      },
-      {
-        "weekDay": 4,
-        "weekState": "00000000000011000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "12-13",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "421",
-        "rooms": "信息学院1A108"
-      },
-      {
-        "weekDay": 4,
-        "weekState": "00000000000000111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "14-16",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "481",
-        "rooms": "教学中心201"
+        "rooms": "教学中心201(虚拟)"
       },
       {
         "weekDay": 2,
@@ -10764,14 +10313,69 @@
         "startTime": 1500,
         "endTime": 1555,
         "roomIds": "481",
-        "rooms": "教学中心201"
+        "rooms": "教学中心201(虚拟)"
       },
       {
-        "weekDay": 2,
+        "weekDay": 4,
+        "weekState": "00000000000000111000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "14-16",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "481",
+        "rooms": "教学中心201(虚拟)"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000000000011000000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "12-13",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "421",
+        "rooms": "信息学院1A108"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000000000100000000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "11",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "481",
+        "rooms": "教学中心201(虚拟)"
+      },
+      {
+        "weekDay": 4,
         "weekState": "00000001111000000000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
         "weekStateDigest": "7-10",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "421",
+        "rooms": "信息学院1A108"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00001110000000000000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "4-6",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "481",
+        "rooms": "教学中心201(虚拟)"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "01110000000000000000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "1-3",
         "startTime": 1500,
         "endTime": 1555,
         "roomIds": "421",
@@ -10813,9 +10417,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "9",
+    "bstdCount": "15",
     "ystdLimit": "100",
-    "ystdCount": "64",
+    "ystdCount": "81",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -10825,8 +10429,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1015,
         "endTime": 1110,
-        "roomIds": "212",
-        "rooms": "信息学院1B110"
+        "roomIds": "228",
+        "rooms": "教学中心204"
       }
     ]
   },
@@ -10923,7 +10527,7 @@
     "similarcourses": "(BME1109)生物医学电子学I,(BME1103)生物医学电子学I",
     "byThrough": "false",
     "bstdLimit": "63",
-    "bstdCount": "63",
+    "bstdCount": "60",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -10989,7 +10593,7 @@
     "similarcourses": "(BME1109)生物医学电子学I,(BME1103)生物医学电子学I",
     "byThrough": "false",
     "bstdLimit": "63",
-    "bstdCount": "26",
+    "bstdCount": "28",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11121,7 +10725,7 @@
     "similarcourses": "(BME1110)生物医学电子学I实验",
     "byThrough": "false",
     "bstdLimit": "80",
-    "bstdCount": "78",
+    "bstdCount": "79",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11176,7 +10780,7 @@
     "similarcourses": "(BME1110)生物医学电子学I实验",
     "byThrough": "false",
     "bstdLimit": "80",
-    "bstdCount": "66",
+    "bstdCount": "65",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11297,7 +10901,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "50",
-    "bstdCount": "20",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11363,7 +10967,7 @@
     "similarcourses": "(EE113P)数字集成电路I课程设计",
     "byThrough": "false",
     "bstdLimit": "50",
-    "bstdCount": "13",
+    "bstdCount": "17",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11418,7 +11022,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "36",
-    "bstdCount": "30",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11506,7 +11110,7 @@
     "similarcourses": "(BME1107)生物医学电子学II,(EE115)模拟与数字电路",
     "byThrough": "false",
     "bstdLimit": "72",
-    "bstdCount": "72",
+    "bstdCount": "71",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11660,7 +11264,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "36",
-    "bstdCount": "27",
+    "bstdCount": "26",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11737,7 +11341,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "29",
+    "bstdCount": "21",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11869,7 +11473,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "40",
+    "bstdCount": "39",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -11979,7 +11583,7 @@
     "similarcourses": "(EE131)物理光学",
     "byThrough": "false",
     "bstdLimit": "150",
-    "bstdCount": "13",
+    "bstdCount": "12",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -12034,7 +11638,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "150",
-    "bstdCount": "77",
+    "bstdCount": "82",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -12100,7 +11704,7 @@
     "similarcourses": "(BME1106)生物医学信号与系统II,(BME1113)生物医学数字信号处理",
     "byThrough": "false",
     "bstdLimit": "150",
-    "bstdCount": "43",
+    "bstdCount": "48",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -12166,7 +11770,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "34",
-    "bstdCount": "26",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -12243,7 +11847,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "34",
-    "bstdCount": "21",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -12320,7 +11924,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "68",
-    "bstdCount": "17",
+    "bstdCount": "19",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": []
@@ -12430,19 +12034,8 @@
     "bstdLimit": "10",
     "bstdCount": "2",
     "ystdLimit": "50",
-    "ystdCount": "21",
+    "ystdCount": "19",
     "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 1,
-        "endUnit": 2,
-        "weekStateDigest": "1-12",
-        "startTime": 815,
-        "endTime": 910,
-        "roomIds": "224",
-        "rooms": "信息学院1D107"
-      },
       {
         "weekDay": 3,
         "weekState": "01111111111110000000000000000000000000000000000000000",
@@ -12455,15 +12048,15 @@
         "rooms": "信息学院1D107"
       },
       {
-        "weekDay": 5,
-        "weekState": "00000000001010101000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "10-16双",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "481",
-        "rooms": "教学中心201"
+        "weekDay": 1,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 1,
+        "endUnit": 2,
+        "weekStateDigest": "1-12",
+        "startTime": 815,
+        "endTime": 910,
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
       },
       {
         "weekDay": 5,
@@ -12475,6 +12068,17 @@
         "endTime": 1110,
         "roomIds": "1674",
         "rooms": "信息学院3-101-1"
+      },
+      {
+        "weekDay": 5,
+        "weekState": "00000000001010101000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "10-16双",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "481",
+        "rooms": "教学中心201(虚拟)"
       }
     ]
   },
@@ -12512,12 +12116,23 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "6",
+    "bstdCount": "4",
     "ystdLimit": "100",
-    "ystdCount": "65",
+    "ystdCount": "64",
     "arrangeInfo": [
       {
-        "weekDay": 3,
+        "weekDay": 1,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "1-12",
+        "startTime": 1300,
+        "endTime": 1355,
+        "roomIds": "227",
+        "rooms": "教学中心203"
+      },
+      {
+        "weekDay": 1,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -12539,18 +12154,7 @@
         "rooms": "教学中心203"
       },
       {
-        "weekDay": 1,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-12",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "227",
-        "rooms": "教学中心203"
-      },
-      {
-        "weekDay": 1,
+        "weekDay": 3,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -12601,8 +12205,19 @@
     "bstdLimit": "100",
     "bstdCount": "0",
     "ystdLimit": "100",
-    "ystdCount": "31",
+    "ystdCount": "29",
     "arrangeInfo": [
+      {
+        "weekDay": 3,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-12",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "1494",
+        "rooms": "信息学院2-215"
+      },
       {
         "weekDay": 3,
         "weekState": "00000000000001111000000000000000000000000000000000000",
@@ -12635,101 +12250,6 @@
         "endTime": 1110,
         "roomIds": "1563",
         "rooms": "虚拟教室005"
-      },
-      {
-        "weekDay": 3,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-12",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "1494",
-        "rooms": "信息学院2-215"
-      }
-    ]
-  },
-  {
-    "id": 64531,
-    "no": "EE227.01",
-    "name": "纳米电子学",
-    "code": "EE227",
-    "credits": 4,
-    "courseId": 4292,
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 561,
-    "courseTypeName": "研究生课程",
-    "courseTypeCode": "999",
-    "teachDepartId": 22,
-    "teachDepartName": "信息科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 64,
-    "weekHour": 4,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "杨雨梦",
-    "teacherIds": "4824415",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "3",
-    "courseEducationName": "硕士研究生",
-    "strMainTeacherId": "101437",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "纳米电子学01",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "100",
-    "bstdCount": "0",
-    "ystdLimit": "100",
-    "ystdCount": "3",
-    "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-12",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "220",
-        "rooms": "信息学院1D104"
-      },
-      {
-        "weekDay": 3,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "13-16",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "1560",
-        "rooms": "虚拟教室002"
-      },
-      {
-        "weekDay": 1,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-12",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "220",
-        "rooms": "信息学院1D104"
-      },
-      {
-        "weekDay": 1,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "13-16",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "1560",
-        "rooms": "虚拟教室002"
       }
     ]
   },
@@ -12767,12 +12287,12 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "2",
+    "bstdCount": "3",
     "ystdLimit": "100",
-    "ystdCount": "42",
+    "ystdCount": "45",
     "arrangeInfo": [
       {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -12783,7 +12303,7 @@
         "rooms": "教学中心202"
       },
       {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -12794,7 +12314,7 @@
         "rooms": "信息学院1D104"
       },
       {
-        "weekDay": 2,
+        "weekDay": 4,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -12805,7 +12325,7 @@
         "rooms": "教学中心202"
       },
       {
-        "weekDay": 2,
+        "weekDay": 4,
         "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -12856,7 +12376,7 @@
     "bstdLimit": "100",
     "bstdCount": "8",
     "ystdLimit": "100",
-    "ystdCount": "40",
+    "ystdCount": "31",
     "arrangeInfo": [
       {
         "weekDay": 3,
@@ -12866,8 +12386,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1500,
         "endTime": 1555,
-        "roomIds": "211",
-        "rooms": "信息学院1B108"
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
       },
       {
         "weekDay": 1,
@@ -12877,8 +12397,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1500,
         "endTime": 1555,
-        "roomIds": "211",
-        "rooms": "信息学院1B108"
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
       }
     ]
   },
@@ -12916,20 +12436,20 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "0",
+    "bstdCount": "1",
     "ystdLimit": "100",
     "ystdCount": "9",
     "arrangeInfo": [
       {
-        "weekDay": 1,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "weekDay": 3,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
-        "weekStateDigest": "13-16",
+        "weekStateDigest": "1-12",
         "startTime": 1300,
         "endTime": 1355,
-        "roomIds": "1563",
-        "rooms": "虚拟教室005"
+        "roomIds": "208",
+        "rooms": "信息学院1A104"
       },
       {
         "weekDay": 1,
@@ -12954,15 +12474,15 @@
         "rooms": "虚拟教室005"
       },
       {
-        "weekDay": 3,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "weekDay": 1,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
-        "weekStateDigest": "1-12",
+        "weekStateDigest": "13-16",
         "startTime": 1300,
         "endTime": 1355,
-        "roomIds": "208",
-        "rooms": "信息学院1A104"
+        "roomIds": "1563",
+        "rooms": "虚拟教室005"
       }
     ]
   },
@@ -13003,10 +12523,21 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "5",
-    "bstdCount": "0",
+    "bstdCount": "1",
     "ystdLimit": "25",
-    "ystdCount": "21",
+    "ystdCount": "15",
     "arrangeInfo": [
+      {
+        "weekDay": 3,
+        "weekState": "00000111111111110000000000000000000000000000000000000",
+        "startUnit": 1,
+        "endUnit": 2,
+        "weekStateDigest": "5-15",
+        "startTime": 815,
+        "endTime": 910,
+        "roomIds": "220",
+        "rooms": "信息学院1D104"
+      },
       {
         "weekDay": 1,
         "weekState": "00000111111111110000000000000000000000000000000000000",
@@ -13028,17 +12559,6 @@
         "endTime": 2045,
         "roomIds": "1674",
         "rooms": "信息学院3-101-1"
-      },
-      {
-        "weekDay": 3,
-        "weekState": "00000111111111110000000000000000000000000000000000000",
-        "startUnit": 1,
-        "endUnit": 2,
-        "weekStateDigest": "5-15",
-        "startTime": 815,
-        "endTime": 910,
-        "roomIds": "220",
-        "rooms": "信息学院1D104"
       }
     ]
   },
@@ -13076,22 +12596,11 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "1",
+    "bstdCount": "2",
     "ystdLimit": "100",
-    "ystdCount": "9",
+    "ystdCount": "10",
     "arrangeInfo": [
       {
-        "weekDay": 4,
-        "weekState": "01111111100000000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-8",
-        "startTime": 1500,
-        "endTime": 1555,
-        "roomIds": "211",
-        "rooms": "信息学院1B108"
-      },
-      {
         "weekDay": 2,
         "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 7,
@@ -13123,6 +12632,17 @@
         "endTime": 1555,
         "roomIds": "485",
         "rooms": "创管学院215"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "01111111100000000000000000000000000000000000000000000",
+        "startUnit": 7,
+        "endUnit": 8,
+        "weekStateDigest": "1-8",
+        "startTime": 1500,
+        "endTime": 1555,
+        "roomIds": "211",
+        "rooms": "信息学院1B108"
       }
     ]
   },
@@ -13165,38 +12685,27 @@
     "bstdLimit": "100",
     "bstdCount": "1",
     "ystdLimit": "100",
-    "ystdCount": "13",
+    "ystdCount": "11",
     "arrangeInfo": [
       {
         "weekDay": 1,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "13-16",
+        "weekStateDigest": "1-12",
         "startTime": 1015,
         "endTime": 1110,
-        "roomIds": "1559",
-        "rooms": "虚拟教室001"
+        "roomIds": "211",
+        "rooms": "信息学院1B108"
       },
       {
         "weekDay": 1,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "1-12",
+        "weekStateDigest": "13-16",
         "startTime": 1015,
         "endTime": 1110,
-        "roomIds": "211",
-        "rooms": "信息学院1B108"
-      },
-      {
-        "weekDay": 5,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 1,
-        "endUnit": 2,
-        "weekStateDigest": "13-16",
-        "startTime": 815,
-        "endTime": 910,
         "roomIds": "1559",
         "rooms": "虚拟教室001"
       },
@@ -13210,6 +12719,17 @@
         "endTime": 910,
         "roomIds": "211",
         "rooms": "信息学院1B108"
+      },
+      {
+        "weekDay": 5,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 1,
+        "endUnit": 2,
+        "weekStateDigest": "13-16",
+        "startTime": 815,
+        "endTime": 910,
+        "roomIds": "1559",
+        "rooms": "虚拟教室001"
       }
     ]
   },
@@ -13250,9 +12770,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "0",
+    "bstdCount": "1",
     "ystdLimit": "100",
-    "ystdCount": "18",
+    "ystdCount": "17",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -13334,9 +12854,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "1",
-    "bstdCount": "0",
+    "bstdCount": "1",
     "ystdLimit": "15",
-    "ystdCount": "15",
+    "ystdCount": "14",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -13398,8 +12918,19 @@
     "bstdLimit": "100",
     "bstdCount": "8",
     "ystdLimit": "100",
-    "ystdCount": "35",
+    "ystdCount": "32",
     "arrangeInfo": [
+      {
+        "weekDay": 2,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 1,
+        "endUnit": 2,
+        "weekStateDigest": "1-12",
+        "startTime": 815,
+        "endTime": 910,
+        "roomIds": "1494",
+        "rooms": "信息学院2-215"
+      },
       {
         "weekDay": 2,
         "weekState": "00000000000001111000000000000000000000000000000000000",
@@ -13410,17 +12941,6 @@
         "endTime": 910,
         "roomIds": "483",
         "rooms": "信息学院1D-108"
-      },
-      {
-        "weekDay": 2,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 1,
-        "endUnit": 2,
-        "weekStateDigest": "1-12",
-        "startTime": 815,
-        "endTime": 910,
-        "roomIds": "210",
-        "rooms": "信息学院1B106"
       }
     ]
   },
@@ -13460,14 +12980,14 @@
     "bstdLimit": "30",
     "bstdCount": "15",
     "ystdLimit": "80",
-    "ystdCount": "45",
+    "ystdCount": "49",
     "arrangeInfo": [
       {
         "weekDay": 2,
-        "weekState": "00000000011111111000000000000000000000000000000000000",
+        "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
-        "weekStateDigest": "9-16",
+        "weekStateDigest": "1-8",
         "startTime": 1300,
         "endTime": 1355,
         "roomIds": "1674",
@@ -13475,10 +12995,10 @@
       },
       {
         "weekDay": 2,
-        "weekState": "01111111100000000000000000000000000000000000000000000",
+        "weekState": "00000000011111111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
-        "weekStateDigest": "1-8",
+        "weekStateDigest": "9-16",
         "startTime": 1300,
         "endTime": 1355,
         "roomIds": "1674",
@@ -13524,7 +13044,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "15",
-    "bstdCount": "10",
+    "bstdCount": "11",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -13579,9 +13099,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "10",
+    "bstdCount": "11",
     "ystdLimit": "30",
-    "ystdCount": "19",
+    "ystdCount": "12",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -13630,9 +13150,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "50",
-    "bstdCount": "11",
+    "bstdCount": "6",
     "ystdLimit": "10",
-    "ystdCount": "45",
+    "ystdCount": "54",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -13733,9 +13253,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "38",
-    "bstdCount": "38",
+    "bstdCount": "33",
     "ystdLimit": "22",
-    "ystdCount": "22",
+    "ystdCount": "19",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -13745,8 +13265,8 @@
         "weekStateDigest": "1-11",
         "startTime": 1800,
         "endTime": 2035,
-        "roomIds": "256",
-        "rooms": "创管学院108"
+        "roomIds": "113",
+        "rooms": "教学中心101"
       }
     ]
   },
@@ -13788,9 +13308,9 @@
     "similarcourses": "(FINA1015)会计与财务",
     "byThrough": "true",
     "bstdLimit": "5",
-    "bstdCount": "4",
+    "bstdCount": "5",
     "ystdLimit": "65",
-    "ystdCount": "31",
+    "ystdCount": "24",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -13800,8 +13320,63 @@
         "weekStateDigest": "1-16",
         "startTime": 1800,
         "endTime": 1940,
-        "roomIds": "256",
-        "rooms": "创管学院108"
+        "roomIds": "254",
+        "rooms": "创管学院106"
+      }
+    ]
+  },
+  {
+    "id": 64721,
+    "no": "FINA1203.01",
+    "name": "金融学原理",
+    "code": "FINA1203",
+    "credits": 2,
+    "courseId": 6391,
+    "courseMoldId": 1,
+    "courseMoldCode": "1",
+    "courseMoldName": "本科生课程",
+    "gradeRecord": "英文等级制",
+    "startWeek": 1,
+    "endWeek": 8,
+    "courseTypeId": 19,
+    "courseTypeName": "专业必修",
+    "courseTypeCode": "019",
+    "teachDepartId": 61,
+    "teachDepartName": "创业与管理学院",
+    "scheduled": true,
+    "hasTextBook": false,
+    "period": 32,
+    "weekHour": 0,
+    "withdrawable": true,
+    "textbooks": "",
+    "teachers": "郭明",
+    "teacherIds": "900",
+    "campusCode": "",
+    "campusName": "",
+    "courseEducationId": "1",
+    "courseEducationName": "本科",
+    "strMainTeacherId": "100567",
+    "strSemester": "202520262",
+    "remark": "",
+    "teachClassName": "全校",
+    "preRequirement": "",
+    "similarcourses": "(FINA1003)金融学原理,(FINA1201)金融学原理",
+    "byThrough": "true",
+    "bstdLimit": "22",
+    "bstdCount": "12",
+    "ystdLimit": "40",
+    "ystdCount": "36",
+    "arrangeInfo": [
+      {
+        "weekDay": 7,
+        "weekState": "01111111100000000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 8,
+        "weekStateDigest": "1-8",
+        "startTime": 1300,
+        "endTime": 1640,
+        "roomIds": "185",
+        "rooms": "创管学院209"
       }
     ]
   },
@@ -13843,9 +13418,9 @@
     "similarcourses": "(FINA1006)金融衍生品",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "5",
+    "bstdCount": "10",
     "ystdLimit": "40",
-    "ystdCount": "20",
+    "ystdCount": "15",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -13898,7 +13473,7 @@
     "similarcourses": "(FINA1012)行为金融",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "10",
+    "bstdCount": "12",
     "ystdLimit": "20",
     "ystdCount": "8",
     "arrangeInfo": [
@@ -14008,10 +13583,21 @@
     "similarcourses": "(FINA1302)金融科技概论",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "19",
+    "bstdCount": "16",
     "ystdLimit": "40",
-    "ystdCount": "40",
+    "ystdCount": "36",
     "arrangeInfo": [
+      {
+        "weekDay": 6,
+        "weekState": "00000000100000000000000000000000000000000000000000000",
+        "startUnit": 1,
+        "endUnit": 8,
+        "weekStateDigest": "8",
+        "startTime": 815,
+        "endTime": 1640,
+        "roomIds": "182",
+        "rooms": "创管学院215"
+      },
       {
         "weekDay": 3,
         "weekState": "01111111100000000000000000000000000000000000000000000",
@@ -14020,8 +13606,8 @@
         "weekStateDigest": "1-8",
         "startTime": 1500,
         "endTime": 1735,
-        "roomIds": "256",
-        "rooms": "创管学院108"
+        "roomIds": "182",
+        "rooms": "创管学院215"
       }
     ]
   },
@@ -14063,7 +13649,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "60",
-    "bstdCount": "31",
+    "bstdCount": "33",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -14118,7 +13704,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "60",
-    "bstdCount": "51",
+    "bstdCount": "49",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -14173,7 +13759,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "60",
-    "bstdCount": "21",
+    "bstdCount": "29",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -14228,7 +13814,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "60",
-    "bstdCount": "60",
+    "bstdCount": "59",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -14393,9 +13979,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "25",
+    "bstdCount": "20",
     "ystdLimit": "5",
-    "ystdCount": "2",
+    "ystdCount": "3",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -14448,7 +14034,7 @@
     "similarcourses": "(GEHA1014)《周易》导读",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "22",
+    "bstdCount": "23",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -14462,61 +14048,6 @@
         "endTime": 1440,
         "roomIds": "235",
         "rooms": "教学中心403"
-      }
-    ]
-  },
-  {
-    "id": 63324,
-    "no": "GEHA1076.01",
-    "name": "《庄子》的世界",
-    "code": "GEHA1076",
-    "credits": 2,
-    "courseId": 3345,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 201,
-    "courseTypeName": "文明经典导读课程群",
-    "courseTypeCode": "054",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 2,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "聂保平",
-    "teacherIds": "4778461",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "101432",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "25",
-    "bstdCount": "1",
-    "ystdLimit": "5",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 4,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-16",
-        "startTime": 1500,
-        "endTime": 1640,
-        "roomIds": "186",
-        "rooms": "创管学院214"
       }
     ]
   },
@@ -14613,7 +14144,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "7",
+    "bstdCount": "6",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -14723,7 +14254,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "13",
+    "bstdCount": "11",
     "ystdLimit": "5",
     "ystdCount": "1",
     "arrangeInfo": [
@@ -14888,7 +14419,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "22",
-    "bstdCount": "21",
+    "bstdCount": "22",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -14943,7 +14474,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "22",
-    "bstdCount": "21",
+    "bstdCount": "20",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -15328,7 +14859,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "22",
-    "bstdCount": "21",
+    "bstdCount": "22",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -15438,7 +14969,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "22",
-    "bstdCount": "21",
+    "bstdCount": "22",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -15548,7 +15079,7 @@
     "similarcourses": "(GEHA1111)逻辑导论",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "8",
+    "bstdCount": "14",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -15560,8 +15091,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1500,
         "endTime": 1735,
-        "roomIds": "234",
-        "rooms": "教学中心402"
+        "roomIds": "239",
+        "rooms": "教学中心407"
       }
     ]
   },
@@ -15601,11 +15132,11 @@
     "teachClassName": "全校",
     "preRequirement": "",
     "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "30",
+    "byThrough": "true",
+    "bstdLimit": "28",
     "bstdCount": "27",
-    "ystdLimit": "0",
-    "ystdCount": "0",
+    "ystdLimit": "2",
+    "ystdCount": "1",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -15658,7 +15189,7 @@
     "similarcourses": "(GEHA1132)基础英语II-人文阅读",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "27",
+    "bstdCount": "28",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -15754,13 +15285,13 @@
     "weekHour": 0,
     "withdrawable": true,
     "textbooks": "",
-    "teachers": "Luke Byron Paulsen",
-    "teacherIds": "16606536",
+    "teachers": "Jingchen Weng",
+    "teacherIds": "17654355",
     "campusCode": "",
     "campusName": "",
     "courseEducationId": "1",
     "courseEducationName": "本科",
-    "strMainTeacherId": "500573",
+    "strMainTeacherId": "500750",
     "strSemester": "202520262",
     "remark": "",
     "teachClassName": "全校",
@@ -16055,8 +15586,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1855,
         "endTime": 2035,
-        "roomIds": "254",
-        "rooms": "创管学院106"
+        "roomIds": "239",
+        "rooms": "教学中心407"
       }
     ]
   },
@@ -16112,61 +15643,6 @@
         "endTime": 1735,
         "roomIds": "261",
         "rooms": "物质学院 1-107"
-      }
-    ]
-  },
-  {
-    "id": 64565,
-    "no": "GEHA1166.01",
-    "name": "《爱弥儿》精读",
-    "code": "GEHA1166",
-    "credits": 2,
-    "courseId": 5576,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 201,
-    "courseTypeName": "文明经典导读课程群",
-    "courseTypeCode": "054",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "曾誉铭",
-    "teacherIds": "6334609",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "101541",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "25",
-    "bstdCount": "1",
-    "ystdLimit": "5",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 11,
-        "endUnit": 12,
-        "weekStateDigest": "1-16",
-        "startTime": 1855,
-        "endTime": 2035,
-        "roomIds": "274",
-        "rooms": "物质学院 1-307"
       }
     ]
   },
@@ -16428,7 +15904,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "20",
+    "bstdCount": "19",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -16483,7 +15959,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "30",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -16497,61 +15973,6 @@
         "endTime": 1440,
         "roomIds": "260",
         "rooms": "物质学院 1-105"
-      }
-    ]
-  },
-  {
-    "id": 63329,
-    "no": "GEHA1199.01",
-    "name": "《尼各马可伦理学》导读",
-    "code": "GEHA1199",
-    "credits": 2,
-    "courseId": 6364,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 201,
-    "courseTypeName": "文明经典导读课程群",
-    "courseTypeCode": "054",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "王寅丽",
-    "teacherIds": "10174865",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "101910",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "25",
-    "bstdCount": "0",
-    "ystdLimit": "5",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 11,
-        "weekStateDigest": "1-16",
-        "startTime": 1800,
-        "endTime": 1940,
-        "roomIds": "236",
-        "rooms": "教学中心404"
       }
     ]
   },
@@ -16593,7 +16014,7 @@
     "similarcourses": "(FORE2013)法语II",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "21",
+    "bstdCount": "19",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -16648,7 +16069,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "15",
+    "bstdCount": "17",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -16703,7 +16124,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "11",
+    "bstdCount": "9",
     "ystdLimit": "5",
     "ystdCount": "1",
     "arrangeInfo": [
@@ -16758,7 +16179,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "6",
+    "bstdCount": "10",
     "ystdLimit": "5",
     "ystdCount": "1",
     "arrangeInfo": [
@@ -16923,7 +16344,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "35",
+    "bstdCount": "31",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -16937,116 +16358,6 @@
         "endTime": 1940,
         "roomIds": "234",
         "rooms": "教学中心402"
-      }
-    ]
-  },
-  {
-    "id": 63308,
-    "no": "GEHA1215.02",
-    "name": "书写自我：本杰明·富兰克林与哈丽特·雅各布斯",
-    "code": "GEHA1215",
-    "credits": 2,
-    "courseId": 6738,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 542,
-    "courseTypeName": "人文英语",
-    "courseTypeCode": "107",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "Szidonia Haragos",
-    "teacherIds": "13449978",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "300109",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "35",
-    "bstdCount": "3",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 2,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 11,
-        "weekStateDigest": "1-16",
-        "startTime": 1800,
-        "endTime": 1940,
-        "roomIds": "236",
-        "rooms": "教学中心404"
-      }
-    ]
-  },
-  {
-    "id": 63322,
-    "no": "GEHA1215.01",
-    "name": "书写自我：本杰明·富兰克林与哈丽特·雅各布斯",
-    "code": "GEHA1215",
-    "credits": 2,
-    "courseId": 6738,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 542,
-    "courseTypeName": "人文英语",
-    "courseTypeCode": "107",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "Szidonia Haragos",
-    "teacherIds": "13449978",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "300109",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "35",
-    "bstdCount": "1",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 11,
-        "weekStateDigest": "1-16",
-        "startTime": 1800,
-        "endTime": 1940,
-        "roomIds": "239",
-        "rooms": "教学中心407"
       }
     ]
   },
@@ -17143,9 +16454,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "25",
+    "bstdCount": "27",
     "ystdLimit": "5",
-    "ystdCount": "0",
+    "ystdCount": "1",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -17308,7 +16619,7 @@
     "similarcourses": "(GEHA1218)《孟子》精读,(GEHA1229)先秦哲学概论",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "12",
+    "bstdCount": "15",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -17363,7 +16674,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "35",
+    "bstdCount": "32",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -17418,9 +16729,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "28",
-    "bstdCount": "28",
+    "bstdCount": "30",
     "ystdLimit": "2",
-    "ystdCount": "1",
+    "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 3,
@@ -17473,7 +16784,7 @@
     "similarcourses": "(PHIL1001)哲学导论A",
     "byThrough": "false",
     "bstdLimit": "70",
-    "bstdCount": "64",
+    "bstdCount": "69",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -17638,7 +16949,7 @@
     "similarcourses": "(PHIL1001)哲学导论A",
     "byThrough": "false",
     "bstdLimit": "70",
-    "bstdCount": "65",
+    "bstdCount": "66",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -17693,7 +17004,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "27",
+    "bstdCount": "28",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -17748,7 +17059,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "27",
-    "bstdCount": "17",
+    "bstdCount": "16",
     "ystdLimit": "3",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -17891,7 +17202,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "7",
+    "bstdCount": "8",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -17905,116 +17216,6 @@
         "endTime": 1940,
         "roomIds": "234",
         "rooms": "教学中心402"
-      }
-    ]
-  },
-  {
-    "id": 63321,
-    "no": "GEHA1266.02",
-    "name": "英国浪漫主义诗歌经典选读",
-    "code": "GEHA1266",
-    "credits": 2,
-    "courseId": 7826,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 542,
-    "courseTypeName": "人文英语",
-    "courseTypeCode": "107",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "Dominic Hubert Gavin",
-    "teacherIds": "15039752",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "300140",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "35",
-    "bstdCount": "1",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 2,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 11,
-        "weekStateDigest": "1-16",
-        "startTime": 1800,
-        "endTime": 1940,
-        "roomIds": "235",
-        "rooms": "教学中心403"
-      }
-    ]
-  },
-  {
-    "id": 62885,
-    "no": "GEHA1271.01",
-    "name": "“家”的故事：从传统到现代",
-    "code": "GEHA1271",
-    "credits": 3,
-    "courseId": 7976,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 653,
-    "courseTypeName": "人文写作课程群",
-    "courseTypeCode": "142",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "毛佩洁",
-    "teacherIds": "6989350",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "101615",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "20",
-    "bstdCount": "3",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-16",
-        "startTime": 1300,
-        "endTime": 1440,
-        "roomIds": "186",
-        "rooms": "创管学院214"
       }
     ]
   },
@@ -18056,7 +17257,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "30",
+    "bstdCount": "32",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18166,7 +17367,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "35",
+    "bstdCount": "34",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18294,116 +17495,6 @@
     ]
   },
   {
-    "id": 63316,
-    "no": "GEHA1281.01",
-    "name": "现代的破晓：1500-1920欧洲史",
-    "code": "GEHA1281",
-    "credits": 2,
-    "courseId": 8431,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 542,
-    "courseTypeName": "人文英语",
-    "courseTypeCode": "107",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "Igor Fedyukin",
-    "teacherIds": "11605667",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "102025",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "35",
-    "bstdCount": "0",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 2,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 11,
-        "weekStateDigest": "1-16",
-        "startTime": 1800,
-        "endTime": 1940,
-        "roomIds": "1974",
-        "rooms": "物质学院 1-403"
-      }
-    ]
-  },
-  {
-    "id": 63326,
-    "no": "GEHA1282.01",
-    "name": "西方政治哲学经典导读",
-    "code": "GEHA1282",
-    "credits": 2,
-    "courseId": 8432,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 201,
-    "courseTypeName": "文明经典导读课程群",
-    "courseTypeCode": "054",
-    "teachDepartId": 162,
-    "teachDepartName": "人文科学研究院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "王寅丽",
-    "teacherIds": "10174865",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "101910",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "25",
-    "bstdCount": "3",
-    "ystdLimit": "5",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 4,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 11,
-        "weekStateDigest": "1-16",
-        "startTime": 1800,
-        "endTime": 1940,
-        "roomIds": "263",
-        "rooms": "物质学院 1-111"
-      }
-    ]
-  },
-  {
     "id": 63317,
     "no": "GEHA1283.01",
     "name": "中国古代精神生活史",
@@ -18441,7 +17532,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "13",
+    "bstdCount": "14",
     "ystdLimit": "5",
     "ystdCount": "1",
     "arrangeInfo": [
@@ -18496,7 +17587,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "8",
+    "bstdCount": "9",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18550,8 +17641,8 @@
     "preRequirement": "",
     "similarcourses": "",
     "byThrough": "false",
-    "bstdLimit": "24",
-    "bstdCount": "24",
+    "bstdLimit": "25",
+    "bstdCount": "25",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18606,7 +17697,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "24",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18715,8 +17806,8 @@
     "preRequirement": "",
     "similarcourses": "",
     "byThrough": "false",
-    "bstdLimit": "25",
-    "bstdCount": "25",
+    "bstdLimit": "26",
+    "bstdCount": "26",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18771,7 +17862,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "28",
-    "bstdCount": "28",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18826,7 +17917,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "13",
+    "bstdCount": "14",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18936,7 +18027,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "22",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -18991,7 +18082,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "18",
+    "bstdCount": "20",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19156,7 +18247,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "26",
-    "bstdCount": "25",
+    "bstdCount": "26",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19431,7 +18522,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "24",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19486,7 +18577,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "18",
+    "bstdCount": "19",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19541,7 +18632,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "23",
+    "bstdCount": "24",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19651,7 +18742,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "24",
-    "bstdCount": "19",
+    "bstdCount": "21",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19761,7 +18852,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "80",
-    "bstdCount": "73",
+    "bstdCount": "70",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19816,7 +18907,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "80",
-    "bstdCount": "75",
+    "bstdCount": "78",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19871,7 +18962,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "80",
-    "bstdCount": "74",
+    "bstdCount": "78",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19926,7 +19017,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "80",
-    "bstdCount": "71",
+    "bstdCount": "67",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -19981,7 +19072,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "160",
-    "bstdCount": "126",
+    "bstdCount": "118",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20036,7 +19127,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "160",
-    "bstdCount": "78",
+    "bstdCount": "86",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20091,7 +19182,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "17",
+    "bstdCount": "14",
     "ystdLimit": "5",
     "ystdCount": "1",
     "arrangeInfo": [
@@ -20146,7 +19237,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "110",
-    "bstdCount": "71",
+    "bstdCount": "64",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20256,7 +19347,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "110",
-    "bstdCount": "49",
+    "bstdCount": "46",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20421,7 +19512,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "4",
-    "bstdCount": "3",
+    "bstdCount": "4",
     "ystdLimit": "2",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20433,8 +19524,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1500,
         "endTime": 1735,
-        "roomIds": "239",
-        "rooms": "教学中心407"
+        "roomIds": "2114",
+        "rooms": "创艺学院E114"
       }
     ]
   },
@@ -20586,7 +19677,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "30",
+    "bstdCount": "28",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20652,7 +19743,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "40",
-    "bstdCount": "28",
+    "bstdCount": "29",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20718,7 +19809,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "25",
+    "bstdCount": "22",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20784,7 +19875,7 @@
     "similarcourses": "(GEMA1007)数学建模",
     "byThrough": "true",
     "bstdLimit": "50",
-    "bstdCount": "20",
+    "bstdCount": "16",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -20839,27 +19930,27 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "40",
-    "bstdCount": "5",
+    "bstdCount": "6",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01010101010101010000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-15单",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "",
-        "rooms": ""
-      },
       {
         "weekDay": 1,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
         "weekStateDigest": "1-16",
+        "startTime": 1015,
+        "endTime": 1155,
+        "roomIds": "1276",
+        "rooms": "数学所 506"
+      },
+      {
+        "weekDay": 3,
+        "weekState": "01010101010101010000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "1-15单",
         "startTime": 1015,
         "endTime": 1155,
         "roomIds": "1276",
@@ -20957,13 +20048,13 @@
     "weekHour": 3,
     "withdrawable": true,
     "textbooks": "",
-    "teachers": "秦玲",
-    "teacherIds": "16564318",
+    "teachers": "张子宇",
+    "teacherIds": "3978285",
     "campusCode": "",
     "campusName": "",
     "courseEducationId": "1",
     "courseEducationName": "本科",
-    "strMainTeacherId": "102480",
+    "strMainTeacherId": "101376",
     "strSemester": "202520262",
     "remark": "",
     "teachClassName": "年级:2023级,专业:数学与应用数学",
@@ -20971,7 +20062,7 @@
     "similarcourses": "(SI152)数值最优化,(SI151A)凸优化及其在信息科学中的应用,(SI251)凸优化,(SI251H)凸优化",
     "byThrough": "true",
     "bstdLimit": "40",
-    "bstdCount": "16",
+    "bstdCount": "15",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -21031,13 +20122,13 @@
     "ystdCount": "0",
     "arrangeInfo": [
       {
-        "weekDay": 2,
+        "weekDay": 4,
         "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 10,
-        "endUnit": 11,
+        "startUnit": 12,
+        "endUnit": 13,
         "weekStateDigest": "1-16",
-        "startTime": 1800,
-        "endTime": 1940,
+        "startTime": 1950,
+        "endTime": 2130,
         "roomIds": "1276",
         "rooms": "数学所 506"
       }
@@ -21067,13 +20158,13 @@
     "weekHour": 1,
     "withdrawable": true,
     "textbooks": "",
-    "teachers": "张子宇",
-    "teacherIds": "3978285",
+    "teachers": "秦玲,姜嘉骅",
+    "teacherIds": "16564318,17373240",
     "campusCode": "",
     "campusName": "",
     "courseEducationId": "1",
     "courseEducationName": "本科",
-    "strMainTeacherId": "101376",
+    "strMainTeacherId": "102541",
     "strSemester": "202520262",
     "remark": "",
     "teachClassName": "数学应用数学方向",
@@ -21081,16 +20172,27 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "14",
+    "bstdCount": "15",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 2,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
+        "weekState": "01111111100000000000000000000000000000000000000000000",
         "startUnit": 10,
         "endUnit": 11,
-        "weekStateDigest": "1-16",
+        "weekStateDigest": "1-8",
+        "startTime": 1800,
+        "endTime": 1940,
+        "roomIds": "1275",
+        "rooms": "数学所 507"
+      },
+      {
+        "weekDay": 2,
+        "weekState": "00000000011111111000000000000000000000000000000000000",
+        "startUnit": 10,
+        "endUnit": 11,
+        "weekStateDigest": "9-16",
         "startTime": 1800,
         "endTime": 1940,
         "roomIds": "1275",
@@ -21136,7 +20238,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "40",
-    "bstdCount": "18",
+    "bstdCount": "14",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -21150,61 +20252,6 @@
         "endTime": 1155,
         "roomIds": "1276",
         "rooms": "数学所 506"
-      }
-    ]
-  },
-  {
-    "id": 64490,
-    "no": "MATH1331.01",
-    "name": "现代概率论",
-    "code": "MATH1331",
-    "credits": 3,
-    "courseId": 6988,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 2,
-    "courseTypeName": "跨学科课程",
-    "courseTypeCode": "002",
-    "teachDepartId": 141,
-    "teachDepartName": "数学科学研究所",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "Engin Basakoglu",
-    "teacherIds": "15039750",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "102321",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "5",
-    "bstdCount": "1",
-    "ystdLimit": "15",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 9,
-        "weekStateDigest": "1-16",
-        "startTime": 1500,
-        "endTime": 1735,
-        "roomIds": "1275",
-        "rooms": "数学所 507"
       }
     ]
   },
@@ -21232,13 +20279,13 @@
     "weekHour": 3,
     "withdrawable": true,
     "textbooks": "",
-    "teachers": "张子宇",
-    "teacherIds": "3978285",
+    "teachers": "姜嘉骅",
+    "teacherIds": "17373240",
     "campusCode": "",
     "campusName": "",
     "courseEducationId": "1",
     "courseEducationName": "本科",
-    "strMainTeacherId": "101376",
+    "strMainTeacherId": "102541",
     "strSemester": "202520262",
     "remark": "",
     "teachClassName": "全校",
@@ -21246,7 +20293,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "40",
-    "bstdCount": "20",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -21297,7 +20344,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "15",
-    "bstdCount": "7",
+    "bstdCount": "4",
     "ystdLimit": "15",
     "ystdCount": "7",
     "arrangeInfo": [
@@ -21359,9 +20406,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "9",
+    "bstdCount": "12",
     "ystdLimit": "20",
-    "ystdCount": "16",
+    "ystdCount": "13",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -21371,8 +20418,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1300,
         "endTime": 1355,
-        "roomIds": "1276",
-        "rooms": "数学所 506"
+        "roomIds": "237",
+        "rooms": "教学中心405"
       },
       {
         "weekDay": 3,
@@ -21382,8 +20429,8 @@
         "weekStateDigest": "1-16",
         "startTime": 1300,
         "endTime": 1355,
-        "roomIds": "1276",
-        "rooms": "数学所 506"
+        "roomIds": "237",
+        "rooms": "教学中心405"
       }
     ]
   },
@@ -21421,12 +20468,12 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "3",
+    "bstdCount": "5",
     "ystdLimit": "20",
-    "ystdCount": "10",
+    "ystdCount": "9",
     "arrangeInfo": [
       {
-        "weekDay": 2,
+        "weekDay": 4,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -21437,7 +20484,7 @@
         "rooms": "数学所 506"
       },
       {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 7,
         "endUnit": 8,
@@ -21485,10 +20532,10 @@
     "bstdLimit": "15",
     "bstdCount": "1",
     "ystdLimit": "15",
-    "ystdCount": "5",
+    "ystdCount": "6",
     "arrangeInfo": [
       {
-        "weekDay": 2,
+        "weekDay": 4,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 1,
         "endUnit": 2,
@@ -21499,7 +20546,7 @@
         "rooms": "数学所 506"
       },
       {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 1,
         "endUnit": 2,
@@ -21547,7 +20594,7 @@
     "bstdLimit": "15",
     "bstdCount": "6",
     "ystdLimit": "15",
-    "ystdCount": "4",
+    "ystdCount": "7",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -21609,7 +20656,7 @@
     "bstdLimit": "10",
     "bstdCount": "4",
     "ystdLimit": "20",
-    "ystdCount": "4",
+    "ystdCount": "6",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -21642,8 +20689,8 @@
     "code": "MECH2005",
     "credits": 3,
     "courseId": 8444,
-    "startWeek": 1,
-    "endWeek": 12,
+    "startWeek": 2,
+    "endWeek": 13,
     "courseTypeId": 561,
     "courseTypeName": "研究生课程",
     "courseTypeCode": "999",
@@ -21669,16 +20716,16 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "5",
-    "bstdCount": "3",
+    "bstdCount": "6",
     "ystdLimit": "15",
-    "ystdCount": "5",
+    "ystdCount": "3",
     "arrangeInfo": [
       {
         "weekDay": 2,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "weekState": "00111111111111000000000000000000000000000000000000000",
         "startUnit": 10,
         "endUnit": 13,
-        "weekStateDigest": "1-12",
+        "weekStateDigest": "2-13",
         "startTime": 1800,
         "endTime": 2045,
         "roomIds": "616",
@@ -21720,7 +20767,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "3",
+    "bstdCount": "5",
     "ystdLimit": "20",
     "ystdCount": "5",
     "arrangeInfo": [
@@ -21786,9 +20833,9 @@
     "similarcourses": "(MGMT1105)营销学原理,(MGMT1001)营销学",
     "byThrough": "true",
     "bstdLimit": "30",
-    "bstdCount": "27",
+    "bstdCount": "23",
     "ystdLimit": "10",
-    "ystdCount": "4",
+    "ystdCount": "5",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -21841,9 +20888,9 @@
     "similarcourses": "(MGMT1104)管理学原理",
     "byThrough": "true",
     "bstdLimit": "7",
-    "bstdCount": "7",
+    "bstdCount": "8",
     "ystdLimit": "53",
-    "ystdCount": "50",
+    "ystdCount": "47",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -21853,8 +20900,8 @@
         "weekStateDigest": "1-11",
         "startTime": 910,
         "endTime": 1155,
-        "roomIds": "254",
-        "rooms": "创管学院106"
+        "roomIds": "185",
+        "rooms": "创管学院209"
       }
     ]
   },
@@ -21882,8 +20929,8 @@
     "weekHour": 2,
     "withdrawable": true,
     "textbooks": "",
-    "teachers": "鲍杨",
-    "teacherIds": "15277656",
+    "teachers": "叶豪,鲍杨",
+    "teacherIds": "6485397,15277656",
     "campusCode": "",
     "campusName": "",
     "courseEducationId": "1",
@@ -21896,7 +20943,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "40",
-    "bstdCount": "4",
+    "bstdCount": "7",
     "ystdLimit": "10",
     "ystdCount": "5",
     "arrangeInfo": [
@@ -21919,8 +20966,8 @@
         "weekStateDigest": "9-16",
         "startTime": 1800,
         "endTime": 2130,
-        "roomIds": "1514",
-        "rooms": "创管学院501"
+        "roomIds": "1374",
+        "rooms": "校外场所（具体由开课单位通知）"
       }
     ]
   },
@@ -21964,7 +21011,7 @@
     "bstdLimit": "20",
     "bstdCount": "14",
     "ystdLimit": "20",
-    "ystdCount": "9",
+    "ystdCount": "3",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -21974,8 +21021,8 @@
         "weekStateDigest": "1-11",
         "startTime": 1300,
         "endTime": 1545,
-        "roomIds": "256",
-        "rooms": "创管学院108"
+        "roomIds": "254",
+        "rooms": "创管学院106"
       }
     ]
   },
@@ -22017,7 +21064,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "8",
+    "bstdCount": "10",
     "ystdLimit": "20",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -22068,9 +21115,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "3",
-    "bstdCount": "3",
+    "bstdCount": "4",
     "ystdLimit": "45",
-    "ystdCount": "36",
+    "ystdCount": "35",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -22156,7 +21203,7 @@
     "similarcourses": "(MSE1111)材料科学导论",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "28",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -22211,7 +21258,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "20",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -22271,11 +21318,33 @@
     "ystdCount": "0",
     "arrangeInfo": [
       {
+        "weekDay": 7,
+        "weekState": "00001000000000000000000000000000000000000000000000000",
+        "startUnit": 10,
+        "endUnit": 13,
+        "weekStateDigest": "4",
+        "startTime": 1800,
+        "endTime": 2130,
+        "roomIds": "262",
+        "rooms": "物质学院 1-109"
+      },
+      {
+        "weekDay": 7,
+        "weekState": "00000010000000000000000000000000000000000000000000000",
+        "startUnit": 10,
+        "endUnit": 11,
+        "weekStateDigest": "6",
+        "startTime": 1800,
+        "endTime": 1940,
+        "roomIds": "262",
+        "rooms": "物质学院 1-109"
+      },
+      {
         "weekDay": 1,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
+        "weekState": "01100111111111111000000000000000000000000000000000000",
         "startUnit": 1,
         "endUnit": 2,
-        "weekStateDigest": "1-16",
+        "weekStateDigest": "1-2,5-16",
         "startTime": 815,
         "endTime": 955,
         "roomIds": "262",
@@ -22283,10 +21352,10 @@
       },
       {
         "weekDay": 3,
-        "weekState": "00101010101010101000000000000000000000000000000000000",
+        "weekState": "00100010101010101000000000000000000000000000000000000",
         "startUnit": 1,
         "endUnit": 2,
-        "weekStateDigest": "2-16双",
+        "weekStateDigest": "2,6-16双",
         "startTime": 815,
         "endTime": 955,
         "roomIds": "262",
@@ -22470,10 +21539,21 @@
     "arrangeInfo": [
       {
         "weekDay": 3,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
+        "weekState": "01000000000000000000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 7,
-        "weekStateDigest": "1-16",
+        "weekStateDigest": "1",
+        "startTime": 1300,
+        "endTime": 1545,
+        "roomIds": "1096",
+        "rooms": "物质学院 2-214"
+      },
+      {
+        "weekDay": 3,
+        "weekState": "00111111111111111000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 7,
+        "weekStateDigest": "2-16",
         "startTime": 1300,
         "endTime": 1545,
         "roomIds": "1097",
@@ -22530,7 +21610,7 @@
     "similarcourses": "(MSE1510)材料物理生物",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "19",
+    "bstdCount": "18",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -22585,7 +21665,7 @@
     "similarcourses": "(MSE1508)高分子化学与物理（含实验）",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "12",
+    "bstdCount": "9",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -22651,7 +21731,7 @@
     "similarcourses": "(MSE2101)计算材料学",
     "byThrough": "false",
     "bstdLimit": "40",
-    "bstdCount": "25",
+    "bstdCount": "27",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -22706,7 +21786,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "16",
-    "bstdCount": "11",
+    "bstdCount": "8",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -22772,7 +21852,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "8",
+    "bstdCount": "9",
     "ystdLimit": "20",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -22948,17 +22028,17 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "12",
-    "bstdCount": "11",
+    "bstdCount": "12",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 5,
         "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 3,
+        "startUnit": 5,
         "endUnit": 8,
         "weekStateDigest": "1-16",
-        "startTime": 1015,
+        "startTime": 1300,
         "endTime": 1640,
         "roomIds": "1294",
         "rooms": "物质学院 7-108"
@@ -22967,10 +22047,10 @@
         "weekDay": 5,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 2,
-        "endUnit": 2,
+        "endUnit": 4,
         "weekStateDigest": "1-16",
         "startTime": 910,
-        "endTime": 955,
+        "endTime": 1155,
         "roomIds": "263",
         "rooms": "物质学院 1-111"
       }
@@ -23064,7 +22144,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "4",
+    "bstdCount": "5",
     "ystdLimit": "80",
     "ystdCount": "12",
     "arrangeInfo": [
@@ -23117,18 +22197,18 @@
     "bstdLimit": "5",
     "bstdCount": "2",
     "ystdLimit": "15",
-    "ystdCount": "15",
+    "ystdCount": "14",
     "arrangeInfo": [
       {
         "weekDay": 2,
         "weekState": "00000000000111000000000000000000000000000000000000000",
-        "startUnit": 8,
-        "endUnit": 10,
+        "startUnit": 7,
+        "endUnit": 7,
         "weekStateDigest": "11-13",
-        "startTime": 1555,
-        "endTime": 1800,
-        "roomIds": "1858",
-        "rooms": "物质学院 5-203"
+        "startTime": 1500,
+        "endTime": 1500,
+        "roomIds": "271",
+        "rooms": "物质学院 1-301"
       },
       {
         "weekDay": 2,
@@ -23144,13 +22224,13 @@
       {
         "weekDay": 2,
         "weekState": "00000000000111000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 7,
+        "startUnit": 8,
+        "endUnit": 10,
         "weekStateDigest": "11-13",
-        "startTime": 1500,
-        "endTime": 1500,
-        "roomIds": "271",
-        "rooms": "物质学院 1-301"
+        "startTime": 1555,
+        "endTime": 1800,
+        "roomIds": "1858",
+        "rooms": "物质学院 5-203"
       }
     ]
   },
@@ -23193,7 +22273,7 @@
     "bstdLimit": "20",
     "bstdCount": "1",
     "ystdLimit": "80",
-    "ystdCount": "18",
+    "ystdCount": "15",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -23242,9 +22322,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "1",
+    "bstdCount": "3",
     "ystdLimit": "80",
-    "ystdCount": "25",
+    "ystdCount": "16",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -23295,7 +22375,7 @@
     "bstdLimit": "2",
     "bstdCount": "1",
     "ystdLimit": "12",
-    "ystdCount": "12",
+    "ystdCount": "13",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -23307,57 +22387,6 @@
         "endTime": 1555,
         "roomIds": "266",
         "rooms": "物质学院 1-203"
-      }
-    ]
-  },
-  {
-    "id": 64600,
-    "no": "MSE2523.01",
-    "name": "固体离子学",
-    "code": "MSE2523",
-    "credits": 3,
-    "courseId": 8459,
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 561,
-    "courseTypeName": "研究生课程",
-    "courseTypeCode": "999",
-    "teachDepartId": 23,
-    "teachDepartName": "物质科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "张科",
-    "teacherIds": "14800017",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "3",
-    "courseEducationName": "硕士研究生",
-    "strMainTeacherId": "102288",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "固体离子学01",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "20",
-    "bstdCount": "0",
-    "ystdLimit": "80",
-    "ystdCount": "2",
-    "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 2,
-        "endUnit": 4,
-        "weekStateDigest": "1-16",
-        "startTime": 910,
-        "endTime": 1110,
-        "roomIds": "275",
-        "rooms": "物质学院 1-309"
       }
     ]
   },
@@ -23398,9 +22427,9 @@
     "similarcourses": "(MSE1711)储能材料与技术,(MSE2711)储能材料与技术",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "4",
+    "bstdCount": "3",
     "ystdLimit": "80",
-    "ystdCount": "54",
+    "ystdCount": "52",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -23453,7 +22482,7 @@
     "similarcourses": "(GESS1025)日常生活中的民法",
     "byThrough": "false",
     "bstdLimit": "50",
-    "bstdCount": "49",
+    "bstdCount": "45",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -23563,9 +22592,9 @@
     "similarcourses": "(GEHA1095)红色圣地-从开天辟地到上海解放",
     "byThrough": "true",
     "bstdLimit": "28",
-    "bstdCount": "28",
+    "bstdCount": "20",
     "ystdLimit": "2",
-    "ystdCount": "1",
+    "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -23618,7 +22647,7 @@
     "similarcourses": "(MT1014)人类命运共同体的历史基础与当代实践",
     "byThrough": "true",
     "bstdLimit": "25",
-    "bstdCount": "9",
+    "bstdCount": "8",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -23673,9 +22702,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "45",
-    "bstdCount": "17",
+    "bstdCount": "20",
     "ystdLimit": "5",
-    "ystdCount": "1",
+    "ystdCount": "0",
     "arrangeInfo": [
       {
         "weekDay": 3,
@@ -23685,61 +22714,6 @@
         "weekStateDigest": "1-16",
         "startTime": 1300,
         "endTime": 1440,
-        "roomIds": "235",
-        "rooms": "教学中心403"
-      }
-    ]
-  },
-  {
-    "id": 62786,
-    "no": "MT1032.01",
-    "name": "中华优秀传统文化中的心性理论与实践",
-    "code": "MT1032",
-    "credits": 2,
-    "courseId": 8434,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 481,
-    "courseTypeName": "思政选修课",
-    "courseTypeCode": "090",
-    "teachDepartId": 221,
-    "teachDepartName": "思想政治理论课教研部",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "张小霞",
-    "teacherIds": "16588922",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "102486",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "true",
-    "bstdLimit": "45",
-    "bstdCount": "3",
-    "ystdLimit": "5",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 4,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-16",
-        "startTime": 1500,
-        "endTime": 1640,
         "roomIds": "235",
         "rooms": "教学中心403"
       }
@@ -23783,7 +22757,7 @@
     "similarcourses": "(PHYS1107)物理原理II：光学、电磁学,(PHYS1183)普通物理II",
     "byThrough": "false",
     "bstdLimit": "55",
-    "bstdCount": "46",
+    "bstdCount": "48",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -24025,7 +22999,7 @@
     "similarcourses": "(PHYS1116)物理原理I实验",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "20",
+    "bstdCount": "17",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -24355,7 +23329,7 @@
     "similarcourses": "(PHYS1116)物理原理I实验",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "34",
+    "bstdCount": "35",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -24410,7 +23384,7 @@
     "similarcourses": "(PHYS1116)物理原理I实验",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "32",
+    "bstdCount": "35",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -24465,7 +23439,7 @@
     "similarcourses": "(PHYS1116)物理原理I实验",
     "byThrough": "false",
     "bstdLimit": "35",
-    "bstdCount": "17",
+    "bstdCount": "18",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -24520,7 +23494,7 @@
     "similarcourses": "(PHYS1113)普通物理II实验",
     "byThrough": "false",
     "bstdLimit": "25",
-    "bstdCount": "19",
+    "bstdCount": "20",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -24575,7 +23549,7 @@
     "similarcourses": "(PHYS1113)普通物理II实验",
     "byThrough": "false",
     "bstdLimit": "25",
-    "bstdCount": "23",
+    "bstdCount": "25",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -24861,7 +23835,7 @@
     "similarcourses": "(PHYS1106)物理原理I：力学、热学,(PHYS1102)普通物理IB,(PHYS1101)普通物理IA,(PHYS1105)普通物理IC",
     "byThrough": "false",
     "bstdLimit": "70",
-    "bstdCount": "32",
+    "bstdCount": "37",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25092,7 +24066,7 @@
     "similarcourses": "(PHYS1303)数学物理方法II",
     "byThrough": "false",
     "bstdLimit": "50",
-    "bstdCount": "42",
+    "bstdCount": "43",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25158,7 +24132,7 @@
     "similarcourses": "(PHYS1304)电动力学",
     "byThrough": "true",
     "bstdLimit": "30",
-    "bstdCount": "15",
+    "bstdCount": "11",
     "ystdLimit": "10",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25224,7 +24198,7 @@
     "similarcourses": "(PHYS1304)电动力学",
     "byThrough": "true",
     "bstdLimit": "30",
-    "bstdCount": "26",
+    "bstdCount": "29",
     "ystdLimit": "10",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25290,7 +24264,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "50",
-    "bstdCount": "39",
+    "bstdCount": "44",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25422,7 +24396,7 @@
     "similarcourses": "(PHYS1502)固体物理",
     "byThrough": "true",
     "bstdLimit": "55",
-    "bstdCount": "38",
+    "bstdCount": "35",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25488,7 +24462,7 @@
     "similarcourses": "(PHYS1501)量子力学",
     "byThrough": "true",
     "bstdLimit": "55",
-    "bstdCount": "43",
+    "bstdCount": "42",
     "ystdLimit": "5",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25543,7 +24517,7 @@
     "similarcourses": "(PHYS1707)近代物理实验",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "26",
+    "bstdCount": "23",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25598,7 +24572,7 @@
     "similarcourses": "(PHYS1707)近代物理实验",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "19",
+    "bstdCount": "24",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25653,7 +24627,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "20",
-    "bstdCount": "8",
+    "bstdCount": "13",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25708,7 +24682,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "14",
+    "bstdCount": "13",
     "ystdLimit": "20",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25763,7 +24737,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "18",
+    "bstdCount": "20",
     "ystdLimit": "20",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25928,7 +24902,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "8",
+    "bstdCount": "12",
     "ystdLimit": "20",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -25979,12 +24953,12 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "2",
+    "bstdCount": "1",
     "ystdLimit": "80",
-    "ystdCount": "6",
+    "ystdCount": "5",
     "arrangeInfo": [
       {
-        "weekDay": 5,
+        "weekDay": 1,
         "weekState": "00001111111100000000000000000000000000000000000000000",
         "startUnit": 2,
         "endUnit": 4,
@@ -25995,7 +24969,7 @@
         "rooms": "物质学院 1-309"
       },
       {
-        "weekDay": 1,
+        "weekDay": 5,
         "weekState": "00001111111100000000000000000000000000000000000000000",
         "startUnit": 2,
         "endUnit": 4,
@@ -26044,9 +25018,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "3",
+    "bstdCount": "2",
     "ystdLimit": "80",
-    "ystdCount": "19",
+    "ystdCount": "17",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -26100,7 +25074,7 @@
     "bstdLimit": "20",
     "bstdCount": "5",
     "ystdLimit": "80",
-    "ystdCount": "10",
+    "ystdCount": "14",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -26154,7 +25128,7 @@
     "bstdLimit": "20",
     "bstdCount": "13",
     "ystdLimit": "80",
-    "ystdCount": "22",
+    "ystdCount": "18",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -26205,7 +25179,7 @@
     "bstdLimit": "20",
     "bstdCount": "10",
     "ystdLimit": "80",
-    "ystdCount": "23",
+    "ystdCount": "27",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -26254,7 +25228,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "2",
+    "bstdCount": "1",
     "ystdLimit": "80",
     "ystdCount": "5",
     "arrangeInfo": [
@@ -26308,9 +25282,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "3",
+    "bstdCount": "4",
     "ystdLimit": "80",
-    "ystdCount": "26",
+    "ystdCount": "30",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -26362,9 +25336,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "3",
+    "bstdCount": "2",
     "ystdLimit": "80",
-    "ystdCount": "15",
+    "ystdCount": "13",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -26416,7 +25390,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "1",
+    "bstdCount": "2",
     "ystdLimit": "80",
     "ystdCount": "38",
     "arrangeInfo": [
@@ -26470,9 +25444,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "3",
+    "bstdCount": "5",
     "ystdLimit": "80",
-    "ystdCount": "29",
+    "ystdCount": "27",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -26524,9 +25498,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "4",
+    "bstdCount": "5",
     "ystdLimit": "90",
-    "ystdCount": "86",
+    "ystdCount": "95",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -26629,9 +25603,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "10",
+    "bstdCount": "7",
     "ystdLimit": "80",
-    "ystdCount": "34",
+    "ystdCount": "38",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -26682,7 +25656,7 @@
     "bstdLimit": "20",
     "bstdCount": "3",
     "ystdLimit": "80",
-    "ystdCount": "9",
+    "ystdCount": "10",
     "arrangeInfo": [
       {
         "weekDay": 5,
@@ -26731,9 +25705,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "3",
+    "bstdCount": "2",
     "ystdLimit": "80",
-    "ystdCount": "7",
+    "ystdCount": "6",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -26782,7 +25756,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "0",
+    "bstdCount": "2",
     "ystdLimit": "80",
     "ystdCount": "26",
     "arrangeInfo": [
@@ -26835,7 +25809,7 @@
     "bstdLimit": "20",
     "bstdCount": "0",
     "ystdLimit": "80",
-    "ystdCount": "19",
+    "ystdCount": "21",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -26890,32 +25864,10 @@
     "arrangeInfo": [
       {
         "weekDay": 1,
-        "weekState": "00000000000011111000000000000000000000000000000000000",
+        "weekState": "01100000000000000000000000000000000000000000000000000",
         "startUnit": 6,
         "endUnit": 9,
-        "weekStateDigest": "12-16",
-        "startTime": 1355,
-        "endTime": 1650,
-        "roomIds": "1857",
-        "rooms": "物质学院 8-205"
-      },
-      {
-        "weekDay": 1,
-        "weekState": "00000011111000000000000000000000000000000000000000000",
-        "startUnit": 6,
-        "endUnit": 9,
-        "weekStateDigest": "6-10",
-        "startTime": 1355,
-        "endTime": 1650,
-        "roomIds": "1857",
-        "rooms": "物质学院 8-205"
-      },
-      {
-        "weekDay": 1,
-        "weekState": "00000000000100000000000000000000000000000000000000000",
-        "startUnit": 6,
-        "endUnit": 9,
-        "weekStateDigest": "11",
+        "weekStateDigest": "1-2",
         "startTime": 1355,
         "endTime": 1650,
         "roomIds": "273",
@@ -26934,6 +25886,28 @@
       },
       {
         "weekDay": 1,
+        "weekState": "00000000000100000000000000000000000000000000000000000",
+        "startUnit": 6,
+        "endUnit": 9,
+        "weekStateDigest": "11",
+        "startTime": 1355,
+        "endTime": 1650,
+        "roomIds": "273",
+        "rooms": "物质学院 1-305"
+      },
+      {
+        "weekDay": 1,
+        "weekState": "00000000000011111000000000000000000000000000000000000",
+        "startUnit": 6,
+        "endUnit": 9,
+        "weekStateDigest": "12-16",
+        "startTime": 1355,
+        "endTime": 1650,
+        "roomIds": "1857",
+        "rooms": "物质学院 8-205"
+      },
+      {
+        "weekDay": 1,
         "weekState": "00000100000000000000000000000000000000000000000000000",
         "startUnit": 6,
         "endUnit": 9,
@@ -26945,14 +25919,14 @@
       },
       {
         "weekDay": 1,
-        "weekState": "01100000000000000000000000000000000000000000000000000",
+        "weekState": "00000011111000000000000000000000000000000000000000000",
         "startUnit": 6,
         "endUnit": 9,
-        "weekStateDigest": "1-2",
+        "weekStateDigest": "6-10",
         "startTime": 1355,
         "endTime": 1650,
-        "roomIds": "273",
-        "rooms": "物质学院 1-305"
+        "roomIds": "1857",
+        "rooms": "物质学院 8-205"
       }
     ]
   },
@@ -27043,7 +26017,7 @@
     "bstdLimit": "20",
     "bstdCount": "2",
     "ystdLimit": "80",
-    "ystdCount": "12",
+    "ystdCount": "14",
     "arrangeInfo": [
       {
         "weekDay": 4,
@@ -27094,7 +26068,7 @@
     "bstdLimit": "20",
     "bstdCount": "0",
     "ystdLimit": "80",
-    "ystdCount": "9",
+    "ystdCount": "10",
     "arrangeInfo": [
       {
         "weekDay": 2,
@@ -27147,9 +26121,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "20",
-    "bstdCount": "1",
+    "bstdCount": "2",
     "ystdLimit": "20",
-    "ystdCount": "6",
+    "ystdCount": "7",
     "arrangeInfo": [
       {
         "weekDay": 6,
@@ -27289,10 +26263,21 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "10",
+    "bstdCount": "11",
     "ystdLimit": "60",
     "ystdCount": "59",
     "arrangeInfo": [
+      {
+        "weekDay": 6,
+        "weekState": "00000000000010000000000000000000000000000000000000000",
+        "startUnit": 2,
+        "endUnit": 9,
+        "weekStateDigest": "12",
+        "startTime": 910,
+        "endTime": 1650,
+        "roomIds": "242",
+        "rooms": "生命学院A103"
+      },
       {
         "weekDay": 6,
         "weekState": "00000000000001000000000000000000000000000000000000000",
@@ -27321,17 +26306,6 @@
         "startUnit": 2,
         "endUnit": 9,
         "weekStateDigest": "11",
-        "startTime": 910,
-        "endTime": 1650,
-        "roomIds": "242",
-        "rooms": "生命学院A103"
-      },
-      {
-        "weekDay": 6,
-        "weekState": "00000000000010000000000000000000000000000000000000000",
-        "startUnit": 2,
-        "endUnit": 9,
-        "weekStateDigest": "12",
         "startTime": 910,
         "endTime": 1650,
         "roomIds": "242",
@@ -27376,9 +26350,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "10",
-    "bstdCount": "5",
+    "bstdCount": "8",
     "ystdLimit": "30",
-    "ystdCount": "27",
+    "ystdCount": "26",
     "arrangeInfo": [
       {
         "weekDay": 7,
@@ -27493,9 +26467,9 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "30",
-    "bstdCount": "17",
+    "bstdCount": "13",
     "ystdLimit": "20",
-    "ystdCount": "20",
+    "ystdCount": "19",
     "arrangeInfo": [
       {
         "weekDay": 1,
@@ -27548,7 +26522,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "150",
-    "bstdCount": "27",
+    "bstdCount": "26",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -27573,72 +26547,6 @@
         "endTime": 1155,
         "roomIds": "221",
         "rooms": "信息学院1D106"
-      }
-    ]
-  },
-  {
-    "id": 63207,
-    "no": "SI151A.01",
-    "name": "凸优化及其在信息科学中的应用",
-    "code": "SI151A",
-    "credits": 3,
-    "courseId": 4741,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 12,
-    "courseTypeId": 501,
-    "courseTypeName": "专业方向必修",
-    "courseTypeCode": "082",
-    "teachDepartId": 22,
-    "teachDepartName": "信息科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 48,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "石远明",
-    "teacherIds": "922",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "100503",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "年级:2023级 2022级 专业:计算机科学与技术 电子信息工程",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "30",
-    "bstdCount": "2",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 1,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-12",
-        "startTime": 1500,
-        "endTime": 1640,
-        "roomIds": "208",
-        "rooms": "信息学院1A104"
-      },
-      {
-        "weekDay": 3,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-12",
-        "startTime": 1500,
-        "endTime": 1640,
-        "roomIds": "208",
-        "rooms": "信息学院1A104"
       }
     ]
   },
@@ -27680,7 +26588,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "23",
+    "bstdCount": "22",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -27705,72 +26613,6 @@
         "endTime": 1640,
         "roomIds": "421",
         "rooms": "信息学院1A108"
-      }
-    ]
-  },
-  {
-    "id": 63271,
-    "no": "SI170.01",
-    "name": "计算机控制系统",
-    "code": "SI170",
-    "credits": 4,
-    "courseId": 6707,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 341,
-    "courseTypeName": "专业任选",
-    "courseTypeCode": "069",
-    "teachDepartId": 22,
-    "teachDepartName": "信息科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 64,
-    "weekHour": 0,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "白卫邦",
-    "teacherIds": "11757999",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "102031",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "年级:2023级 2022级 专业:计算机科学与技术 电子信息工程",
-    "preRequirement": "建议先修：控制原理、信号与系统、电路基础",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "30",
-    "bstdCount": "0",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-16",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "208",
-        "rooms": "信息学院1A104"
-      },
-      {
-        "weekDay": 5,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "1-16",
-        "startTime": 1015,
-        "endTime": 1155,
-        "roomIds": "208",
-        "rooms": "信息学院1A104"
       }
     ]
   },
@@ -27811,31 +26653,42 @@
     "similarcourses": "(SI231H)矩阵分析",
     "byThrough": "true",
     "bstdLimit": "1",
-    "bstdCount": "1",
+    "bstdCount": "0",
     "ystdLimit": "59",
-    "ystdCount": "59",
+    "ystdCount": "60",
     "arrangeInfo": [
       {
         "weekDay": 2,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "1-12",
+        "weekStateDigest": "13-16",
         "startTime": 1015,
         "endTime": 1110,
-        "roomIds": "421",
-        "rooms": "信息学院1A108"
+        "roomIds": "1563",
+        "rooms": "虚拟教室005"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "13-16",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "1563",
+        "rooms": "虚拟教室005"
       },
       {
         "weekDay": 2,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "weekState": "01111111111110000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "13-16",
+        "weekStateDigest": "1-12",
         "startTime": 1015,
         "endTime": 1110,
-        "roomIds": "1563",
-        "rooms": "虚拟教室005"
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
       },
       {
         "weekDay": 4,
@@ -27845,19 +26698,8 @@
         "weekStateDigest": "1-12",
         "startTime": 1015,
         "endTime": 1110,
-        "roomIds": "421",
-        "rooms": "信息学院1A108"
-      },
-      {
-        "weekDay": 4,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
-        "startUnit": 3,
-        "endUnit": 4,
-        "weekStateDigest": "13-16",
-        "startTime": 1015,
-        "endTime": 1110,
-        "roomIds": "1563",
-        "rooms": "虚拟教室005"
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
       }
     ]
   },
@@ -27895,7 +26737,7 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "4",
+    "bstdCount": "5",
     "ystdLimit": "100",
     "ystdCount": "9",
     "arrangeInfo": [
@@ -27946,12 +26788,12 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "1",
+    "bstdCount": "0",
     "ystdLimit": "100",
-    "ystdCount": "8",
+    "ystdCount": "6",
     "arrangeInfo": [
       {
-        "weekDay": 2,
+        "weekDay": 4,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 1,
         "endUnit": 2,
@@ -27962,7 +26804,7 @@
         "rooms": "信息学院1B108"
       },
       {
-        "weekDay": 4,
+        "weekDay": 2,
         "weekState": "01111111111111111000000000000000000000000000000000000",
         "startUnit": 1,
         "endUnit": 2,
@@ -28013,10 +26855,32 @@
     "bstdLimit": "5",
     "bstdCount": "2",
     "ystdLimit": "65",
-    "ystdCount": "65",
+    "ystdCount": "66",
     "arrangeInfo": [
       {
         "weekDay": 1,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "1-12",
+        "startTime": 1300,
+        "endTime": 1355,
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
+      },
+      {
+        "weekDay": 3,
+        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "startUnit": 5,
+        "endUnit": 6,
+        "weekStateDigest": "1-12",
+        "startTime": 1300,
+        "endTime": 1355,
+        "roomIds": "224",
+        "rooms": "信息学院1D107"
+      },
+      {
+        "weekDay": 3,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -28028,17 +26892,6 @@
       },
       {
         "weekDay": 1,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-12",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "1494",
-        "rooms": "信息学院2-215"
-      },
-      {
-        "weekDay": 3,
         "weekState": "00000000000001111000000000000000000000000000000000000",
         "startUnit": 5,
         "endUnit": 6,
@@ -28047,17 +26900,6 @@
         "endTime": 1355,
         "roomIds": "1562",
         "rooms": "虚拟教室004"
-      },
-      {
-        "weekDay": 3,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
-        "startUnit": 5,
-        "endUnit": 6,
-        "weekStateDigest": "1-12",
-        "startTime": 1300,
-        "endTime": 1355,
-        "roomIds": "1494",
-        "rooms": "信息学院2-215"
       }
     ]
   },
@@ -28095,27 +26937,49 @@
     "similarcourses": "",
     "byThrough": "true",
     "bstdLimit": "100",
-    "bstdCount": "2",
+    "bstdCount": "1",
     "ystdLimit": "100",
-    "ystdCount": "9",
+    "ystdCount": "6",
     "arrangeInfo": [
       {
         "weekDay": 2,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "weekState": "00000001000000000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "13-16",
+        "weekStateDigest": "7",
         "startTime": 1015,
         "endTime": 1110,
         "roomIds": "1562",
         "rooms": "虚拟教室004"
       },
       {
-        "weekDay": 4,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "weekDay": 2,
+        "weekState": "01111110000000000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "1-12",
+        "weekStateDigest": "1-6",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "209",
+        "rooms": "信息学院1A106"
+      },
+      {
+        "weekDay": 2,
+        "weekState": "00000000000000111000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "14-16",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "1562",
+        "rooms": "虚拟教室004"
+      },
+      {
+        "weekDay": 2,
+        "weekState": "00000000111111000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "8-13",
         "startTime": 1015,
         "endTime": 1110,
         "roomIds": "209",
@@ -28123,21 +26987,43 @@
       },
       {
         "weekDay": 4,
-        "weekState": "00000000000001111000000000000000000000000000000000000",
+        "weekState": "00000001000000000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "13-16",
+        "weekStateDigest": "7",
         "startTime": 1015,
         "endTime": 1110,
         "roomIds": "1562",
         "rooms": "虚拟教室004"
       },
       {
-        "weekDay": 2,
-        "weekState": "01111111111110000000000000000000000000000000000000000",
+        "weekDay": 4,
+        "weekState": "01111110000000000000000000000000000000000000000000000",
         "startUnit": 3,
         "endUnit": 4,
-        "weekStateDigest": "1-12",
+        "weekStateDigest": "1-6",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "209",
+        "rooms": "信息学院1A106"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000000000000111000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "14-16",
+        "startTime": 1015,
+        "endTime": 1110,
+        "roomIds": "1562",
+        "rooms": "虚拟教室004"
+      },
+      {
+        "weekDay": 4,
+        "weekState": "00000000111111000000000000000000000000000000000000000",
+        "startUnit": 3,
+        "endUnit": 4,
+        "weekStateDigest": "8-13",
         "startTime": 1015,
         "endTime": 1110,
         "roomIds": "209",
@@ -28181,7 +27067,7 @@
     "bstdLimit": "100",
     "bstdCount": "2",
     "ystdLimit": "100",
-    "ystdCount": "26",
+    "ystdCount": "24",
     "arrangeInfo": [
       {
         "weekDay": 3,
@@ -28234,7 +27120,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "30",
+    "bstdCount": "15",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -28289,7 +27175,7 @@
     "similarcourses": "",
     "byThrough": "false",
     "bstdLimit": "30",
-    "bstdCount": "5",
+    "bstdCount": "6",
     "ystdLimit": "0",
     "ystdCount": "0",
     "arrangeInfo": [
@@ -28303,61 +27189,6 @@
         "endTime": 1640,
         "roomIds": "248",
         "rooms": "生命学院A110"
-      }
-    ]
-  },
-  {
-    "id": 62619,
-    "no": "SL1010.01",
-    "name": "生命科学人物史",
-    "code": "SL1010",
-    "credits": 2,
-    "courseId": 4730,
-    "courseMoldId": 1,
-    "courseMoldCode": "1",
-    "courseMoldName": "本科生课程",
-    "gradeRecord": "英文等级制",
-    "startWeek": 1,
-    "endWeek": 16,
-    "courseTypeId": 84,
-    "courseTypeName": "任意选修课",
-    "courseTypeCode": "044",
-    "teachDepartId": 21,
-    "teachDepartName": "生命科学与技术学院",
-    "scheduled": true,
-    "hasTextBook": false,
-    "period": 32,
-    "weekHour": 2,
-    "withdrawable": true,
-    "textbooks": "",
-    "teachers": "张力烨",
-    "teacherIds": "2101",
-    "campusCode": "",
-    "campusName": "",
-    "courseEducationId": "1",
-    "courseEducationName": "本科",
-    "strMainTeacherId": "100786",
-    "strSemester": "202520262",
-    "remark": "",
-    "teachClassName": "全校",
-    "preRequirement": "",
-    "similarcourses": "",
-    "byThrough": "false",
-    "bstdLimit": "30",
-    "bstdCount": "5",
-    "ystdLimit": "0",
-    "ystdCount": "0",
-    "arrangeInfo": [
-      {
-        "weekDay": 3,
-        "weekState": "01111111111111111000000000000000000000000000000000000",
-        "startUnit": 7,
-        "endUnit": 8,
-        "weekStateDigest": "1-16",
-        "startTime": 1500,
-        "endTime": 1640,
-        "roomIds": "250",
-        "rooms": "生命学院A112"
       }
     ]
   },
@@ -28398,9 +27229,9 @@
     "similarcourses": "(SP2005)实验室安全与实践,(SP2002)实验室安全与科研诚信",
     "byThrough": "true",
     "bstdLimit": "5",
-    "bstdCount": "1",
+    "bstdCount": "0",
     "ystdLimit": "129",
-    "ystdCount": "129",
+    "ystdCount": "132",
     "arrangeInfo": [
       {
         "weekDay": 2,
