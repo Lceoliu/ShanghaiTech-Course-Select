@@ -8,3 +8,4 @@ pycryptodome==3.21.0
 Requests==2.32.3
 # selenium==4.32.0
 ten==0.1.6
+quickjs
