@@ -241,7 +241,10 @@ class Backends:
     def _clear_sso_cookies(self) -> None:
         for cookie in list(self.session.cookies):
             domain = (cookie.domain or "").lower()
-            if "ids.shanghaitech.edu.cn" in domain or "egate-new.shanghaitech.edu.cn" in domain:
+            if (
+                "ids.shanghaitech.edu.cn" in domain
+                or "egate-new.shanghaitech.edu.cn" in domain
+            ):
                 self.session.cookies.clear(
                     domain=cookie.domain, path=cookie.path, name=cookie.name
                 )
@@ -276,7 +279,7 @@ class Backends:
         # For now, we will just return a dummy value
         return "dummy_captcha"
 
-    def _submit_login(self, captcha_code=None):
+    def _submit_login(self, captcha_code=None) -> bool:
         if captcha_code:
             self.data['captcha'] = captcha_code
 
@@ -566,7 +569,9 @@ class Backends:
     def validate_session(self) -> bool:
         student_info_url = "https://eams.shanghaitech.edu.cn/eams/stdDetail.action"
         try:
-            response = self.session.get(student_info_url, cookies=self.cookies, timeout=10)
+            response = self.session.get(
+                student_info_url, cookies=self.cookies, timeout=10
+            )
         except requests.RequestException as e:
             self.logger.warning(f"Session check failed due to network error: {e}")
             self.status.append(f"Session check failed due to network error: {e}")
@@ -579,7 +584,32 @@ class Backends:
             self.status.append("Session expired. Please log in again.")
             self.is_logged_in = False
             return False
-        return True
+        if "登录" in response.text:
+            print("Session expired. Please log in again.")
+            self.status.append("Session expired. Please log in again.")
+            self.is_logged_in = False
+            return False
+        if "姓名" in response.text and "性别" in response.text:
+            self.is_logged_in = True
+            return True
+        self.logger.warning("Session validation failed: unexpected response.")
+        self.status.append("Session validation failed: unexpected response.")
+        self.is_logged_in = False
+        return False
+
+    def ensure_login(self):
+        now = time.time()
+        if now - self.last_login_attempt < self.login_cooldown:
+            return
+        if not self.login_lock.acquire(blocking=False):
+            return
+        try:
+            if self.is_logged_in and self.validate_session():
+                return
+            self.last_login_attempt = now
+            self.login()
+        finally:
+            self.login_lock.release()
 
     def _maybe_relogin(self, force: bool = False) -> bool:
         if self.username is None or self.password is None:
