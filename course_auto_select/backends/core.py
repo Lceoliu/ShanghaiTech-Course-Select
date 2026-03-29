@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2025/05/22
 # @Author  : Chang
+import sys
+import os
 
+# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from functools import lru_cache
 from .encryption import LoginEncryptModel
@@ -13,7 +17,7 @@ import time
 import threading
 import logging
 import json
-import os
+
 
 from typing import Optional, Union, List, Dict
 from datetime import datetime, timedelta
@@ -73,7 +77,9 @@ class Backends:
 
         self.give_up_seconds: int = 30
         self.schedule = ScheduleAutoSelector(delay_seconds=self.give_up_seconds)
-        self.auto_select_cd: float = 0.35  # 抢课间隔时间，单位秒
+        self.auto_select_cd: float = (
+            0.35  # 抢课间隔时间default，会自动使用 auto_check_anti_mechanism_cooldown 方法检测并调整到最优值
+        )
 
         # status & logger module
         self.status = []
@@ -236,6 +242,8 @@ class Backends:
         if not self.is_logged_in:
             self.logger.warning("Login attempts exceeded maximum retries.")
             self.status.append("Login attempts exceeded maximum retries.")
+        else:
+            self.login_attempts = 0  # reset attempts after successful login
         return self.is_logged_in
 
     def _clear_sso_cookies(self) -> None:
@@ -406,6 +414,10 @@ class Backends:
             self.status.append("Failed to access entering page.")
             return None
 
+        if "未到选课时间" in response.text:
+            print("Not in course selection period.")
+            self.status.append("Not in course selection period.")
+            return None
         import bs4
 
         soup = bs4.BeautifulSoup(response.text, 'lxml')
@@ -523,6 +535,10 @@ class Backends:
             return None
         self.get_course_selection_page()
         url = f"https://eams.shanghaitech.edu.cn/eams/stdElectCourse!data.action?profileId={self.semester_id}"
+        if self.semester_id is None:
+            self.logger.error("Semester ID is not set. Cannot get courses info.")
+            self.status.append("Semester ID is not set. Cannot get courses info.")
+            return None
         response = self.session.get(url, cookies=self.cookies)
         if response.status_code == 200:
             self.logger.info("Courses info accessed successfully.")
@@ -566,6 +582,55 @@ class Backends:
 
         return self.courses_info
 
+    def auto_check_anti_mechanism_cooldown(self):
+        """
+        自动检查触发“请不要过快点击”机制的最短请求间隔，以达成最佳抢课节奏。
+        """
+        self.logger.info("正在测试当前网络环境下触发反爬机制的最短请求间隔...")
+        self.status.append("正在测试当前网络环境下触发反爬机制的最短请求间隔...")
+        student_info_url = "https://eams.shanghaitech.edu.cn/eams/stdDetail.action"
+        cool_down_min = 250  # 最小间隔 250ms
+        cool_down_max = 550  # 最大间隔 550ms
+        cool_down_step = 50  # 每次增加50ms
+        current_cd = cool_down_min
+        retry_every_cd = 5  # 每个间隔尝试5次，majority vote 判定是否触发机制
+        results = {}  # {cd: successful tries ratio}
+        cnt_for_cd = 0
+        while current_cd <= cool_down_max:
+            student_info_url = "https://eams.shanghaitech.edu.cn/eams/stdDetail.action"
+
+            response = self.session.get(
+                student_info_url, cookies=self.cookies, timeout=10
+            )
+
+            if response.status_code != 200 or "登录" in response.text:
+                break
+            if "姓名" in response.text and "性别" in response.text:
+                results[current_cd] = (
+                    results.get(current_cd, 0) * (cnt_for_cd) + 1
+                ) / (cnt_for_cd + 1)
+                print(f"间隔 {current_cd} ms: 成功访问学生信息页面，未触发反爬机制。")
+            if "过快点击" in response.text:
+                results[current_cd] = (
+                    results.get(current_cd, 0) * (cnt_for_cd) + 0
+                ) / (cnt_for_cd + 1)
+                print(f"间隔 {current_cd} ms: 触发了过快点击的反爬机制。")
+
+            time.sleep(current_cd / 1000)  # 转换为秒
+            cnt_for_cd += 1
+            if cnt_for_cd >= retry_every_cd:
+                current_cd += cool_down_step
+                cnt_for_cd = 0
+                time.sleep(
+                    cool_down_step / 1000
+                )  # 每次增加间隔后额外等待一次，避免连续请求导致状态被互相覆盖
+        self.logger.info(f"Anti-mechanism cooldown check results: {results}")
+        min_possible_cd = min(
+            cd for cd, ratio in results.items() if ratio >= 0.8
+        )  # 取成功率大于等于80%的最小间隔作为估计的最短安全间隔
+        self.logger.info(f"Estimated minimum possible cooldown: {min_possible_cd} ms")
+        self.status.append(f"Estimated minimum possible cooldown: {min_possible_cd} ms")
+
     def validate_session(self) -> bool:
         student_info_url = "https://eams.shanghaitech.edu.cn/eams/stdDetail.action"
         try:
@@ -577,14 +642,7 @@ class Backends:
             self.status.append(f"Session check failed due to network error: {e}")
             self.is_logged_in = False
             return False
-        if "姓名" in response.text and "性别" in response.text:
-            return True
         if response.status_code != 200 or "登录" in response.text:
-            print("Session expired. Please log in again.")
-            self.status.append("Session expired. Please log in again.")
-            self.is_logged_in = False
-            return False
-        if "登录" in response.text:
             print("Session expired. Please log in again.")
             self.status.append("Session expired. Please log in again.")
             self.is_logged_in = False
@@ -592,8 +650,15 @@ class Backends:
         if "姓名" in response.text and "性别" in response.text:
             self.is_logged_in = True
             return True
-        self.logger.warning("Session validation failed: unexpected response.")
-        self.status.append("Session validation failed: unexpected response.")
+        if "过快点击" in response.text:
+            self.logger.warning("过快点击导致的反爬机制触发，暂不强制登出，继续尝试。")
+            return True  # 反爬机制触发时不强制登出，给用户提示并继续尝试
+        self.logger.warning(
+            f"Session validation failed: unexpected response. Response texts: {response.text.strip()[:4000]}..."
+        )
+        self.status.append(
+            "Session validation failed: unexpected response. Check logs for details."
+        )
         self.is_logged_in = False
         return False
 
@@ -649,6 +714,7 @@ class Backends:
             self.status.append("Not logged in. Cannot start auto-selection.")
             return
         self.stop_event.clear()
+        self.auto_select_cd = self.auto_check_anti_mechanism_cooldown()
         if not self.semester_id:
             self.semester_id = self._get_semester_id()
             self.logger.info(f"Semester ID: {self.semester_id}")
@@ -774,6 +840,7 @@ class Backends:
             if len(frequently_requested_text) > 0 or "过快点击" in response.text:
                 self.logger.info(frequently_requested_text[1].get_text())
                 self.status.append(frequently_requested_text[1].get_text())
+                # 触发过快点击机制时短暂退避，可以有效减少触发机制的概率，提升成功率
                 self.stop_event.wait(self.auto_select_cd + random.uniform(0, 0.25))
             elif len(success_text) > 0:
                 self.logger.info(
@@ -805,9 +872,12 @@ if __name__ == "__main__":
 
     # signal.signal(signal.SIGINT, signal_handler)
     backend.load_user_info_from_file()
+    backend.login()
     # backend.login("USERNAME", "PASSWORD")
-    # backend.get_eams_home()
-    # backend.get_student_info()
+    backend.get_eams_home()
+    backend.get_student_info()
+    # backend.validate_session()
+    backend.auto_check_anti_mechanism_cooldown()
 
     # backend.schedule.add_schedule("59002")
     # backend.schedule.add_schedule_time(datetime.now() + timedelta(seconds=12))
